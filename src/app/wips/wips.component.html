@@ -1,0 +1,22 @@
+<div class="jumbotron animated fadeIn" [ngStyle]="{'background-image': 'url(' + wips?.wipsPage?.background + ')', 'background-size': 'cover'}">
+    <div class="container">
+        <h1>{{ pageName }}</h1>
+        <p> {{ pageDesc }} </p>
+        <p><a class="btn btn-primary btn-lg" href="assets/resume.pdf" role="button"><i class="fa fa-download"></i> Download Resume</a></p>
+    </div>
+</div>
+
+<div class="container animated fadeIn">
+<div class="row">
+  <div class="main col-sm-6 col-xs-12 col-md-6 col-lg-4" *ngFor="let p of Progress | keys; let k = index">
+    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+    <img [src]="getImage(p.value.picture)" class="img-reponsive img-rounded" [ngStyle]="{'max-width': '300px'}" />
+  </div>
+  <div class="textArea" class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+          <h2> {{ p.value.name }} </h2>
+          <p> {{ p.value.description }}</p>
+          <p><a href="{{p.value.links}}" target="_blank" class="btn btn-primary btn-lg" role="button"><i class="fa fa-link"></i> View Application</a></p>
+   </div>
+  </div>
+</div>
+</div>

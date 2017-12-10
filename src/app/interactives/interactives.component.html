@@ -1,0 +1,23 @@
+<div class="jumbotron animated fadeIn" [ngStyle]="{'background-image': 'url(' + int?.interactivesPage?.background + ')', 'background-size': 'cover'}">
+    <div class="container">
+        <h1>{{ pageName }}</h1>
+        <p> {{ pageDesc }} </p>
+        <p><a class="btn btn-primary btn-lg" href="assets/resume.pdf" role="button"><i class="fa fa-download"></i> Download Resume</a></p>
+    </div>
+</div>
+
+<div class="container animated fadeIn">
+<div class="row">
+  <div class="main col-sm-6 col-xs-12 col-md-6 col-lg-4" *ngFor="let n of interactives | keys; let i = index">
+    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+    <img [src]="getImage(n.value.picture)" class="img-responsive img-rounded" [ngStyle]="{'max-width': '300px'}" />
+  </div>
+  <div class="textArea" class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+          <h2> {{ n.value.name }} </h2>
+          <p> {{ n.value.description }}</p>
+          <p><a href="{{n.value.links}}" target="_blank" class="btn btn-primary btn-lg" role="button"><i class="fa fa-link"></i> View Application</a></p>
+   </div>
+  </div>
+</div>
+</div>
+

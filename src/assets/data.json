@@ -1,0 +1,161 @@
+{
+	"title": "",
+	"value": 0,
+	"bio": "My name is Shatilla, and I am currently a Senior at UNLV. I am going for my Bachelor of Science in Graphic Design. I have a lot of experience with development too. I took some Computer Science classes at UNLV. I also spend a lot of time learning about programming. I also spend time reading and experimenting. Over time I began to create things, and now I am obssessed with design and development. One of my favorite things to do is create small front-end apps for fun. My favorite language is javaScript. I love javaScript! It truly is the language of the web! If I had it my way, I would do nothing, but write it all day for the rest of my life. My second favorite language is C++. In my spare time, I enjoy trying new restaurants and spending time with family.",
+	"bioImage": "me.jpg",
+	"homePage":{
+		"pageName": "Hi, Thanks for visiting.",
+		"description": "I am a Web Designer, Developer, Web Enthusiast, Shark Lover, and Student. Please take a look around.",
+		"background": "assets/img/bg3.jpg"
+	},
+	"interactivesPage":{
+		"pageName": "Interactive Applications",
+		"description": "This page showcases various interactive web applications.",
+		"background": "assets/img/bg.jpg"
+	},
+	"wipsPage":{
+		"pageName": "Works In Progress",
+		"description": "This page shows my current works in progress. These are projects that I am currently working on.",
+		"background": "assets/img/bg2.jpg"
+	},
+	"graphicsPage":{
+		"pageName": "Graphic Design",
+		"description": "Here is a showcase of my graphics work. Web, Print, and Gaming.",
+		"background": "assets/img/bg.jpg"
+	},
+	"latest": {
+		"title": "Interactive Web Applications",
+		"desc": "You can view my latest work here. I have created many front-end applications that help assist students with learning online. Many of the students have been able to utilize my interactives in real life scenarios. These interactives provide skills and incorporate learning in a fun and productive way.",
+		"image": "thumbs/web/planner.jpg"
+	},
+	"skills":[
+		{
+			"name": "Web Development",
+			"symbol": "fa fa-code",
+			"image": "webdev.jpg",
+			"desc": "I use HTML5, CSS3, javaScript, and many frameworks such as Angular and React. I have understanding of REST patterns too. I also use back-end technologies such as PHP and SQL. I also have some experience with Laravel, Python, and Ruby. I mostly do front-end development, but am working more to develop my skills in back-end development."
+		},
+		{
+			"name": "UI/UX Design",
+			"symbol": "fa fa-desktop",
+			"image": "uidesign.jpg",
+			"desc": "Web Design is where I began my journey. This interest goes back to when I was in high school. I studied on my own before college. I create my mockups in photoshop or illustrator. I use a lot of wireframes to make sure applications are efficient and elegant for the user."
+		},
+		{
+			"name": "Graphic Design and 3D",
+			"symbol": "fa fa-code",
+			"image": "gd.jpg",
+			"desc": "I am a classically trained Graphic Designer too. I am majoring in graphic design. Besides web, I also do print design. I design things such as banners, logos, art works, brochures, business cards, branding, and much more."
+		},
+		{
+			"name": "Application Development",
+			"symbol": "fa fa-code",
+			"image": "app.jpg",
+			"desc": "I also have some knowledge of languages such as C++. I have created some applications for class. I do have an interest in creating applications for mobile phones and desktop computers. "
+		}
+	],
+	"interactives": [
+		{
+			"name": "Healthcare Learning App",
+			"description": "This is a concept for an eLearning course to learn medical skills. This uses Angular 5 library.",
+			"picture": "healthcare.png",
+			"links":"http://spdevstudios.com/healthcarelearning/"
+		},
+		{
+			"name": "Activity Planner",
+			"description": "This is a custom planner used in an online UNLV course. This uses Angular 2 library.",
+			"picture": "planner.jpg",
+			"links":"http://courses.online.unlv.edu/courses/ENV/ENV498/Planner/"
+		},
+		{
+			"name": "Blood Pressure",
+			"description": "This is a blood pressure application used in an online UNLV course. This uses jquery/javascript.",
+			"picture": "bp.jpg",
+			"links":"/bloodpressure/"
+		},
+		{
+			"name": "Monster Genetics",
+			"description": "This is an application used in an online UNLV course. It teaches students how genetics work. This uses jquery/javascript.",
+			"picture": "monster.jpg",
+			"links":"frankenstein_lab/#"
+		},
+		{
+			"name": "World Map (Past and Present)",
+			"description": "This is an application used in an online UNLV course and UNLV Libraries. It showcases various books and media from all over the world. It also teaches students about the history of the past and present in english literature. This project uses angularJS.",
+			"picture": "map.jpg",
+			"links":"http://courses.online.unlv.edu/courses/ENG231_RSabbath/#/"
+		},
+		{
+			"name": "Classify Crimes",
+			"description": "This is an application used in an online UNLV Criminal Justice course. It teaches students about the different types of crimes. This project uses jquery.",
+			"picture": "crimes.jpg",
+			"links":"https://courses.online.unlv.edu/courses/CRJ104_Master/activities/Module02/Lesson01/index.php"
+		},
+		{
+			"name": "Black Lives Matter Timeline",
+			"description": "This is a timelime that was used for a course at UNLV. It uses the timelineJS library",
+			"picture": "blm.jpg",
+			"links":"http://courses.online.unlv.edu/courses/WMST/WMST113/BlackLivesMatter/dist/index.html"
+		},
+		{
+			"name": "Flash Cards",
+			"description": "This is a flash cards exercise that was used for a course at UNLV. I mainly developed the UI for this app. It uses the angularJS and audio library",
+			"picture": "fc.jpg",
+			"links":"flash_cards/#/"
+		},
+		{
+			"name": "Conventional Attributes",
+			"description": "This was an exercise for an online course at UNLV. It uses chartJS and jquery/javascript",
+			"picture": "gender.jpg",
+			"links":"http://courses.online.unlv.edu/courses/WMST/WMST113/ConventionalAttributes/masc_fem/"
+		},
+		{
+			"name": "Susie Phipps Timeline",
+			"description": "This was used in an online course at UNLV. I created this with TimelineJS and responsiveVoice JS for audio.",
+			"picture": "sp.jpg",
+			"links":"http://courses.online.unlv.edu/courses/WMST/WMST113/SusiePhipps/timeline/"
+		},
+		{
+			"name": "Cialis UI Design",
+			"description": "This was a project for my Design class. I had to create the UI for Cialis. I worked with a team of other designers. Created with bootstrap and javascript.",
+			"picture": "cialis.jpg",
+			"links":"cialis/"
+		}
+	],
+	"wips": [
+		{
+			"name": "Customized Planner",
+			"description": "This is a custom planner that will be a way for professors the generate their own planners. It is made with angular 2.",
+			"picture": "cp.jpg",
+			"links":"http://courses.online.unlv.edu/courses/URST/planner/#/admin"
+		},
+		{
+			"name": "Binar Multimedia App",
+			"description": "This is an ongoing project that I created for my web design class for a car system. It was made with angularJS.",
+			"picture": "binar.jpg",
+			"links":"binar/#/"
+		}, 
+		{
+			"name": "3D Topographical Map",
+			"description": "This is an experimental project that I did for UNLV Online Ed. It is a 3d map for a geology class. It uses BabylonJS.",
+			"picture": "mountaint.jpg",
+			"links":"http://courses.online.unlv.edu/3dMap/"
+		}
+	],
+	"graphics": [
+		{
+			"name": "Illustrated Cheetos",
+			"description": "I drew this in Illustrator for a art project",
+			"picture": "cheetos.png",
+			"thumbLink":"cheetos.png",
+			"fullLink": "cheetos.png"
+		},
+		{
+			"name": "Lipton Tea Package",
+			"description": "Created in Illustrator for my package design project.",
+			"picture": "teapack.jpg",
+			"thumbLink":"teapack.jpg",
+			"fullLink": "teapack.jpg"
+		}
+	]
+}

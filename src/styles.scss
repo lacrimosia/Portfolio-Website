@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+// colors
+$gold: #C4882B;
+$brown: #46310f;
+$white: #ffffff;
+$gray: #B1B3B5;
+
+// cursive font
+@font-face {
+    font-family: Fancy;
+    src: url(assets/fonts/RougeScript-Regular_0.ttf);
+}
+
+.btn-primary{
+	border-color: $gold !important;
+	background: $gold !important;
+	color: $white !important;
+}
+
+h1{
+	color: $brown !important;
+	font-family: Fancy, sans-serif !important;
+	font-size: 600% !important;
+}
+
+.navbar{
+	min-height: 135px !important;
+	height: auto !important;
+	margin-bottom: 0px !important;
+	background: $white !important;
+	border-color: $white;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: $brown !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	text-decoration: underline !important;
+}
+
+.email{
+	color: $brown !important;
+}
+
+.navbar-nav > li > a{
+	padding-top: 50px !important;
+}
+
+.textArea{
+	background: $gray;
+}
+
+.circles{
+	background: $gold;
+	color: $white;
+}
+
+.contact{
+	background: url('assets/img/pic1.jpg') no-repeat;
+	background-size: cover;
+}
+
+.footer{
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+}

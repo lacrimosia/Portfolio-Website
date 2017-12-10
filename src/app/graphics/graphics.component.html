@@ -1,0 +1,26 @@
+<div class="jumbotron" [ngStyle]="{'background-image': 'url(' + gr?.interactivesPage?.background + ')', 'background-size': 'cover'}">
+    <div class="container">
+        <h1>{{ pageName }}</h1>
+        <p> {{ pageDesc }} </p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
+</div>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-6 col-md-4" *ngFor="let g of graphics | keys; let d = index">
+    <div class="thumbnail">
+      <img [src]="getImage(g.value.picture)" class="img-responsive" alt="...">
+      <button class="btn btn-primary btn-lg zoom" data-toggle="modal" data-target=".bs-example-modal-lg" (click)="getValue(d)"><i class="fa fa-search-plus"></i></button>
+      <div class="caption">
+        <h3> {{ g.value.name }} </h3>
+        <p> {{ g.value.description }}</p>
+        <p><a href="{{g.value.links}}" target="_blank" class="btn btn-primary" role="button">View</a></p>
+      </div>
+      <app-zoom [image]="g.value.fullLink" [title]="g.value.name"></app-zoom>
+    </div>
+  </div>
+</div>
+</div>
+
+

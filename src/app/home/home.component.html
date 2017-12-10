@@ -1,0 +1,61 @@
+<div class="jumbotron homeJumbo animated fadeIn" [ngStyle]="{'background-image': 'url(' + home?.homePage?.background + ')', 'background-size': 'cover'}">
+    <div class="container">
+        <h1>{{ pageName }}</h1>
+        <p> {{ pageDesc }} </p>
+        <p><a class="btn btn-primary btn-lg" href="assets/resume.pdf" role="button"><i class="fa fa-download"></i> Download Resume</a></p>
+    </div>
+</div>
+
+<div class="container animated fadeIn">
+	<div class="row">
+		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+			<h1>Latest Projects</h1>
+			<img [src]="getImage('projects.jpg')" class="img-responsive img-rounded center-block"  />
+			<h3 class="text-center"> {{ home?.latest?.title }} </h3>
+			<p> {{ home?.latest?.desc }}</p>
+			<p><a href="#" [routerLink]="['/app']" class="btn btn-primary btn-lg" role="button"><i class="fa fa-link"></i> View Projects</a></p>
+		</div>
+		
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<h1>A bit about me...</h1>
+			<img [src]="getImage(home?.bioImage)" class="center-block img-rounded img-responsive" />
+			<h3 class="text-center"> Biography </h3>
+			<p> {{ home?.bio }}</p>
+			<p></p>
+			<p></p>
+		</div>
+	</div>
+</div>
+
+<div class="container animated fadeIn">
+<div class="row">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+			<h1>My Skills </h1>
+		</div>
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+		<h2>I do cool things...</h2>
+			<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12" *ngFor="let s of home?.skills; let t = index" [ngStyle]="{'height': '550px'}">
+				<img [src]="getImage(s.image)" class="img-responsive img-rounded center-block"/>
+				<h3 class="text-center">{{s.name}}</h3>
+				<div class="center-block">
+					<p >{{ s.desc }}</p>
+				</div>
+			</div>
+			<p></p>
+			<p></p>
+		</div>
+</div>
+</div>
+
+<div class="contact animated fadeIn">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+			<h1>Wanna get in touch?</h1>
+			<p>
+				Email: <a class="email" href="mailto:shatillaprayer@gmail.com">shatillaprayer@gmail.com</a>
+			</p>
+		</div>
+	</div>
+</div>
+</div>
