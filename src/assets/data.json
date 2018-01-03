@@ -92,34 +92,10 @@
 			"links":"https://courses.online.unlv.edu/courses/CRJ104_Master/activities/Module02/Lesson01/index.php"
 		},
 		{
-			"name": "Black Lives Matter Timeline",
-			"description": "This is a timelime that was used for a course at UNLV. It uses the timelineJS library",
-			"picture": "blm.jpg",
-			"links":"http://courses.online.unlv.edu/courses/WMST/WMST113/BlackLivesMatter/dist/index.html"
-		},
-		{
-			"name": "Flash Cards",
-			"description": "This is a flash cards exercise that was used for a course at UNLV. I mainly developed the UI for this app. It uses the angularJS and audio library",
-			"picture": "fc.jpg",
-			"links":"flash_cards/#/"
-		},
-		{
 			"name": "Conventional Attributes",
 			"description": "This was an exercise for an online course at UNLV. It uses chartJS and jquery/javascript",
 			"picture": "gender.jpg",
 			"links":"http://courses.online.unlv.edu/courses/WMST/WMST113/ConventionalAttributes/masc_fem/"
-		},
-		{
-			"name": "Susie Phipps Timeline",
-			"description": "This was used in an online course at UNLV. I created this with TimelineJS and responsiveVoice JS for audio.",
-			"picture": "sp.jpg",
-			"links":"http://courses.online.unlv.edu/courses/WMST/WMST113/SusiePhipps/timeline/"
-		},
-		{
-			"name": "Cialis UI Design",
-			"description": "This was a project for my Design class. I had to create the UI for Cialis. I worked with a team of other designers. Created with bootstrap and javascript.",
-			"picture": "cialis.jpg",
-			"links":"cialis/"
 		}
 	],
 	"wips": [

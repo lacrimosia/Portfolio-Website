@@ -8,14 +8,14 @@
 
 <div class="container animated fadeIn">
 <div class="row">
-  <div class="main col-sm-6 col-xs-12 col-md-6 col-lg-4" *ngFor="let n of interactives | keys; let i = index">
+  <div class="main col-sm-6 col-xs-12 col-md-6 col-lg-6" *ngFor="let n of interactives | keys; let i = index">
     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
-    <img [src]="getImage(n.value.picture)" class="img-responsive img-rounded" [ngStyle]="{'max-width': '300px'}" />
+    <img [src]="getImage(n.value.picture)"  [ngStyle]="{'max-width': '400px'}" />
   </div>
   <div class="textArea" class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
           <h2> {{ n.value.name }} </h2>
           <p> {{ n.value.description }}</p>
-          <p><a href="{{n.value.links}}" target="_blank" class="btn btn-primary btn-lg" role="button"><i class="fa fa-link"></i> View Application</a></p>
+          <p><a href="{{n.value.links}}" target="_blank" class="btn btn-primary btn-lg" role="button">Learn More <i class="fa fa-arrow-right"></i></a></p>
    </div>
   </div>
 </div>
