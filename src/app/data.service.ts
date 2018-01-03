@@ -1,17 +1,25 @@
 import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
-import { Observable } from 'rxjs/Rx';
+import { Observable } from 'rxjs/Observable';
+import { Http , HttpModule} from '@angular/http';
+import { of } from 'rxjs/observable/of';
+
+// Import RxJs required methods
 import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/catch';
+
 
 @Injectable()
 export class DataService {
 
-  constructor(private _http: Http) { }
+  constructor(private http: Http) 
+  {
+   }
 
-  getData() {
-  	 return this._http.get('assets/data.json')
-  	       .map((res:Response) => res.json());
+  url = "assets/data.json";
+
+  getData(){
+      return this.http.get(this.url)
+      .map((data: any) => data.json())
   }
-
 
 }
