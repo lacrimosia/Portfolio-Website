@@ -3,7 +3,7 @@ import { DataService} from '../data.service';
 import { Observable } from 'rxjs/Rx';
 import { KeysPipe } from '../keys.pipe';
 import 'rxjs/add/operator/map';
-import '../../../node_modules/jquery/dist/jquery.js';
+//import '../../../node_modules/jquery/dist/jquery.min.js';
 
 @Component({
   selector: 'app-graphics',
@@ -34,9 +34,9 @@ export class GraphicsComponent implements OnInit {
   			() => console.log("Graphics data loaded.")
   		);
 
-      $('#modal').on('hidden', function() {
+ /*     $('#modal').on('hidden', function() {
         $(this).data('modal').$element.removeData();
-    });
+    });*/
   }
 
   goTo(link){

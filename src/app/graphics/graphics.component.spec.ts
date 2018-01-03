@@ -1,11 +1,26 @@
 /* tslint:disable:no-unused-variable */
 
-import { TestBed, async } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { GraphicsComponent } from './graphics.component';
 
-describe('Component: Graphics', () => {
-  it('should create an instance', () => {
-    let component = new GraphicsComponent();
+describe('GraphicsComponent', () => {
+  let component: GraphicsComponent;
+  let fixture: ComponentFixture<GraphicsComponent>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ GraphicsComponent ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(GraphicsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });
