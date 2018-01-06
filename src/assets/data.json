@@ -74,6 +74,12 @@
 			"links":"/bloodpressure/"
 		},
 		{
+			"name": "Binar Multimedia App",
+			"description": "This is an ongoing project that I created for my web design class for a car system. It was made with angularJS.",
+			"picture": "binar.jpg",
+			"links":"binar/#/"
+		},
+		{
 			"name": "Monster Genetics",
 			"description": "This is an application used in an online UNLV course. It teaches students how genetics work. This uses jquery/javascript.",
 			"picture": "monster.jpg",
@@ -84,12 +90,6 @@
 			"description": "This is an application used in an online UNLV course and UNLV Libraries. It showcases various books and media from all over the world. It also teaches students about the history of the past and present in english literature. This project uses angularJS.",
 			"picture": "map.jpg",
 			"links":"http://courses.online.unlv.edu/courses/ENG231_RSabbath/#/"
-		},
-		{
-			"name": "Classify Crimes",
-			"description": "This is an application used in an online UNLV Criminal Justice course. It teaches students about the different types of crimes. This project uses jquery.",
-			"picture": "crimes.jpg",
-			"links":"https://courses.online.unlv.edu/courses/CRJ104_Master/activities/Module02/Lesson01/index.php"
 		},
 		{
 			"name": "Conventional Attributes",
@@ -104,12 +104,6 @@
 			"description": "This is a custom planner that will be a way for professors the generate their own planners. It is made with angular 2.",
 			"picture": "cp.jpg",
 			"links":"http://courses.online.unlv.edu/courses/URST/planner/#/admin"
-		},
-		{
-			"name": "Binar Multimedia App",
-			"description": "This is an ongoing project that I created for my web design class for a car system. It was made with angularJS.",
-			"picture": "binar.jpg",
-			"links":"binar/#/"
 		}, 
 		{
 			"name": "3D Topographical Map",
