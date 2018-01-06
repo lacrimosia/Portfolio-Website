@@ -2,7 +2,7 @@
 $gold: #C4882B;
 $brown: #46310f;
 $white: #ffffff;
-$gray: #B1B3B5;
+$gray: #f1f1f1;
 
 // cursive font
 @font-face {
@@ -14,6 +14,7 @@ $gray: #B1B3B5;
 	border-color: $gold !important;
 	background: $gold !important;
 	color: $white !important;
+	border-radius: 0px !important;
 }
 
 h1{

@@ -1,23 +1,22 @@
-<div class="jumbotron animated fadeIn" [ngStyle]="{'background-image': 'url(' + int?.interactivesPage?.background + ')', 'background-size': 'cover'}">
-    <div class="container">
-        <h1>{{ pageName }}</h1>
-        <p> {{ pageDesc }} </p>
-        <p><a class="btn btn-primary btn-lg" href="assets/resume.pdf" role="button"><i class="fa fa-download"></i> Download Resume</a></p>
-    </div>
+<div class="jumbotron animated fadeIn headerImage">
+  <div class="container text-center">
+    <h1>{{ pageName }}</h1>
+    <p> {{ pageDesc }} </p>
+    <p><a class="btn btn-primary btn-lg" href="assets/resume.pdf" role="button"><i class="fa fa-download"></i> Download Resume</a></p>
+  </div>
 </div>
-
 <div class="container animated fadeIn">
-<div class="row">
-  <div class="main col-sm-6 col-xs-12 col-md-6 col-lg-6" *ngFor="let n of interactives | keys; let i = index">
-    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
-    <img [src]="getImage(n.value.picture)"  [ngStyle]="{'max-width': '400px'}" />
-  </div>
-  <div class="textArea" class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
-          <h2> {{ n.value.name }} </h2>
-          <p> {{ n.value.description }}</p>
-          <p><a href="{{n.value.links}}" target="_blank" class="btn btn-primary btn-lg" role="button">Learn More <i class="fa fa-arrow-right"></i></a></p>
-   </div>
+  <div class="row">
+    <div class="main col-sm-12 col-xs-12 col-md-6 col-lg-6" *ngFor="let n of interactives | keys; let i = index">
+      <div class="images" [ngStyle]="{'background-image': 'url(' + getImage(n?.value?.picture) + ')', 'background-size': 'cover'}" (mouseenter)="n.desc=true" (mouseleave)="n.desc=false">
+        <div class="desc animated fadeIn" *ngIf="n.desc==true">
+          <div class="content">
+            <h2> {{ n.value.name }} </h2>
+            <p> {{ n.value.description }}</p>
+            <p><a href="{{n.value.links}}" target="_blank" class="btn btn-primary btn-lg" role="button">Learn More <i class="fa fa-arrow-right"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-</div>
-

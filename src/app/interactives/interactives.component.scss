@@ -1,4 +1,45 @@
+$gold: #C4882B;
+$white: #ffffff;
+$gray: #f1f1f1;
+
 .main{
 	margin-bottom: 30px !important;
 	height: 435px !important;
+}
+
+.headerImage{
+	background: $gray;
+}
+
+.desc{
+	position: absolute;
+	background: rgba(241,241,241,0.8);
+	z-index: 500;
+	bottom: 0;
+	padding: 10px;
+	width: 95%;
+	height: 100%;
+}
+
+.images{
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	cursor: pointer;
+}
+
+.content{
+	width: 80%;
+	margin: 25% auto;
+	border: 1px solid $gold;
+	padding: 10px;
+	background: $white;
+}
+
+
+// styles for mobile
+@media screen and (max-width: 988px) {
+    .content{
+    	margin: 18% auto;
+    }
 }

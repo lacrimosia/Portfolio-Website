@@ -59,43 +59,50 @@
 			"name": "Healthcare Learning App",
 			"description": "This is a concept for an eLearning course to learn medical skills. This uses Angular 5 library.",
 			"picture": "healthcare.png",
-			"links":"http://spdevstudios.com/healthcarelearning/"
+			"links":"http://spdevstudios.com/healthcarelearning/",
+			"desc": false
 		},
 		{
 			"name": "Activity Planner",
 			"description": "This is a custom planner used in an online UNLV course. This uses Angular 2 library.",
 			"picture": "planner.jpg",
-			"links":"http://courses.online.unlv.edu/courses/ENV/ENV498/Planner/"
+			"links":"http://courses.online.unlv.edu/courses/ENV/ENV498/Planner/",
+			"desc": false
 		},
 		{
 			"name": "Blood Pressure",
 			"description": "This is a blood pressure application used in an online UNLV course. This uses jquery/javascript.",
 			"picture": "bp.jpg",
-			"links":"/bloodpressure/"
+			"links":"/bloodpressure/",
+			"desc": false
 		},
 		{
 			"name": "Binar Multimedia App",
 			"description": "This is an ongoing project that I created for my web design class for a car system. It was made with angularJS.",
 			"picture": "binar.jpg",
-			"links":"binar/#/"
+			"links":"binar/#/",
+			"desc": false
 		},
 		{
 			"name": "Monster Genetics",
 			"description": "This is an application used in an online UNLV course. It teaches students how genetics work. This uses jquery/javascript.",
 			"picture": "monster.jpg",
-			"links":"frankenstein_lab/#"
+			"links":"frankenstein_lab/#",
+			"desc": false
 		},
 		{
 			"name": "World Map (Past and Present)",
 			"description": "This is an application used in an online UNLV course and UNLV Libraries. It showcases various books and media from all over the world. It also teaches students about the history of the past and present in english literature. This project uses angularJS.",
 			"picture": "map.jpg",
-			"links":"http://courses.online.unlv.edu/courses/ENG231_RSabbath/#/"
+			"links":"http://courses.online.unlv.edu/courses/ENG231_RSabbath/#/",
+			"desc": false
 		},
 		{
 			"name": "Conventional Attributes",
 			"description": "This was an exercise for an online course at UNLV. It uses chartJS and jquery/javascript",
 			"picture": "gender.jpg",
-			"links":"http://courses.online.unlv.edu/courses/WMST/WMST113/ConventionalAttributes/masc_fem/"
+			"links":"http://courses.online.unlv.edu/courses/WMST/WMST113/ConventionalAttributes/masc_fem/",
+			"desc": false
 		}
 	],
 	"wips": [
