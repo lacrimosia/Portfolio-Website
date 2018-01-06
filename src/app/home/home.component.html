@@ -1,99 +1,87 @@
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="{{home?.homePage?.background}}" alt="...">
-      <div class="carousel-caption">
-        <h3>First</h3>
-        <p>...</p>
+<div id="mainSlideshow">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="{{home?.homePage?.background}}" alt="...">
+        <div class="carousel-caption">
+          <h3>First</h3>
+          <p>...</p>
+        </div>
       </div>
-    </div>
-    <div class="item">
-      <img src="{{home?.homePage?.background}}" alt="...">
-      <div class="carousel-caption">
-        <h3>Second</h3>
-        <p>...</p>
+      <div class="item">
+        <img src="{{home?.homePage?.background}}" alt="...">
+        <div class="carousel-caption">
+          <h3>Second</h3>
+          <p>...</p>
+        </div>
       </div>
-    </div>
-    <div class="item">
-      <img src="{{home?.homePage?.background}}" alt="...">
-      <div class="carousel-caption">
-        <h3>Third</h3>
-        <p>...</p>
+      <div class="item">
+        <img src="{{home?.homePage?.background}}" alt="...">
+        <div class="carousel-caption">
+          <h3>Third</h3>
+          <p>...</p>
+        </div>
       </div>
+      ...
     </div>
-    ...
   </div>
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<!--<div class="jumbotron homeJumbo animated fadeIn" [ngStyle]="{'background-image': 'url(' + home?.homePage?.background + ')', 'background-size': 'cover'}">
+  <!--<div class="jumbotron homeJumbo animated fadeIn" [ngStyle]="{'background-image': 'url(' + home?.homePage?.background + ')', 'background-size': 'cover'}">
     <div class="container">
         <h1>{{ pageName }}</h1>
         <p> {{ pageDesc }} </p>
         <p><a class="btn btn-primary btn-lg" href="assets/resume.pdf" role="button"><i class="fa fa-download"></i> Download Resume</a></p>
     </div>
 </div>-->
-<div class="container animated fadeIn">
-  <div class="row">
-    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-      <h1>Latest Projects</h1>
-      <img [src]="getImage('projects.jpg')" class="img-responsive img-rounded center-block" />
-      <h3 class="text-center"> {{ home?.latest?.title }} </h3>
-      <p> {{ home?.latest?.desc }}</p>
-      <p><a href="#" [routerLink]="['/app']" class="btn btn-primary btn-lg" role="button"><i class="fa fa-link"></i> View Projects</a></p>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <h1>A bit about me...</h1>
-      <img [src]="getImage(home?.bioImage)" class="center-block img-rounded img-responsive" />
-      <h3 class="text-center"> Biography </h3>
-      <p> {{ home?.bio }}</p>
-      <p></p>
-      <p></p>
-    </div>
-  </div>
-</div>
-<div class="container animated fadeIn">
-  <div class="row">
-    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-      <h1>My Skills </h1>
-    </div>
-    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-      <h2>I do cool things...</h2>
-      <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12" *ngFor="let s of home?.skills; let t = index" [ngStyle]="{'height': '550px'}">
-        <img [src]="getImage(s.image)" class="img-responsive img-rounded center-block" />
-        <h3 class="text-center">{{s.name}}</h3>
-        <div class="center-block">
-          <p>{{ s.desc }}</p>
-        </div>
-      </div>
-      <p></p>
-      <p></p>
-    </div>
-  </div>
-</div>
-<div class="contact animated fadeIn">
-  <div class="container">
+  <div class="container animated fadeIn">
     <div class="row">
       <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-        <h1>Wanna get in touch?</h1>
-        <p>
-          Email: <a class="email" href="mailto:shatillaprayer@gmail.com">shatillaprayer@gmail.com</a>
-        </p>
+        <h1>Latest Projects</h1>
+        <h3 class="text-center"> {{ home?.latest?.title }} </h3>
+        <p> {{ home?.latest?.desc }}</p>
+        <p><a href="#" [routerLink]="['/app']" class="btn btn-primary btn-lg" role="button"><i class="fa fa-link"></i> View Projects</a></p>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+        <h1>Biography</h1>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="center-block">
+          <p> {{ home?.bio1 }}</p>
+          <p> {{ home?.bio2 }}</p>
+          <p> {{ home?.bio3 }}</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
+  <div class="container animated fadeIn">
+    <div class="row">
+      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+        <h1>My Skills </h1>
+      </div>
+      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+        <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12" *ngFor="let s of home?.skills; let t = index" [ngStyle]="{'height': '550px'}">
+          <h3 class="text-center"><i class="fa fa-check"></i> {{s.name}}</h3>
+        </div>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="contact animated fadeIn">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+          <h1>Wanna get in touch?</h1>
+          <p>
+            Email: <a class="email" href="mailto:shatillaprayer@gmail.com">shatillaprayer@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
