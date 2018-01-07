@@ -67,3 +67,8 @@ h1{
 	padding-top: 30px !important;
 	padding-bottom: 30px !important;
 }
+
+.carousel-indicators .active{
+  background: $gold;
+  border: 1px solid $gold;
+}

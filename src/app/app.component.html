@@ -10,20 +10,22 @@
       </button>
       <a class="navbar-brand" href="#" [routerLink]="['/home']"><img src="assets/img/symbol-gold.png" height="60px" class="visible-md visible-lg"/><span class="visible-xs visible-sm"></span></a>
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" [routerLink]="['/home']"><i class="fa fa-home"></i> HOME</a></li>
-        <li><a href="#" [routerLink]="['/app']"><i class="fa fa-code"></i> INTERACTIVES</a></li>
-        <li><a href="#" [routerLink]="['/wips']"><i class="fa fa-pencil-square"></i> WIPS</a></li>
-       <!-- <li><a href="#" [routerLink]="['/graphics']">GRAPHIC DESIGN</a></li> -->
+        <li><a href="#" [routerLink]="['/home']"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#" [routerLink]="['/app']"><i class="fa fa-code"></i> Applications</a></li>
+        <li><a href="#" [routerLink]="['/graphics']"><i class="fa fa-paint-brush"></i> Graphics</a></li>
+        <li><a href="#" [routerLink]="['/graphics']"><i class="fa fa-phone"></i> Contact</a></li>
+        <!-- <li><a href="#" [routerLink]="['/graphics']">GRAPHIC DESIGN</a></li> -->
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
 </nav>
 <router-outlet></router-outlet>
-
+<div class="container"><div class="row"></div></div>
 <div class="container footer animated fadeIn">
   <div class="row">
     <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 ">

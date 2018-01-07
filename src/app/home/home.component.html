@@ -8,25 +8,31 @@
     </ol>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="{{home?.homePage?.background}}" alt="...">
-        <div class="carousel-caption">
-          <h3>First</h3>
-          <p>...</p>
+      <div class="item active" [ngStyle]="{'background-image': 'url(assets/img/express.jpg)', 'background-size': 'cover', 'background-position': 'left 50%'}">
+        <div class="container">
+          <div class="row">
+            <h1>User Interface Designer</h1>
+            <p>Shatilla create usable and accessible interfaces that help users navigate easily. View my process and prototypes.</p>
+            <p><a href="#/app/" class="btn btn-primary btn-lg" role="button">View More <i class="fa fa-arrow-right"></i></a></p>
+          </div>
         </div>
       </div>
-      <div class="item">
-        <img src="{{home?.homePage?.background}}" alt="...">
-        <div class="carousel-caption">
-          <h3>Second</h3>
-          <p>...</p>
+      <div class="item" [ngStyle]="{'background-image': 'url(assets/img/weeknd.jpg)', 'background-size': 'cover', 'background-position': '10% 50%'}">
+        <div class="container">
+          <div class="row">
+            <h1>Graphic Designer</h1>
+            <p>Shatilla is a wonderful application developer that utilizes design principles with technology to create stellar apps.</p>
+            <p><a href="#/graphics/" class="btn btn-primary btn-lg" role="button">View More <i class="fa fa-arrow-right"></i></a></p>
+          </div>
         </div>
       </div>
-      <div class="item">
-        <img src="{{home?.homePage?.background}}" alt="...">
-        <div class="carousel-caption">
-          <h3>Third</h3>
-          <p>...</p>
+      <div class="item" [ngStyle]="{'background-image': 'url(assets/img/planner.jpg)', 'background-size': 'cover', 'background-position': '10% 50%'}">
+        <div class="container">
+          <div class="row">
+            <h1>Interactive Application Developer</h1>
+            <p>Shatilla is a wonderful application developer that utilizes design principles with technology to create stellar apps.</p>
+            <p><a href="#/app/" class="btn btn-primary btn-lg" role="button">View More <i class="fa fa-arrow-right"></i></a></p>
+          </div>
         </div>
       </div>
       ...
@@ -39,15 +45,32 @@
         <p><a class="btn btn-primary btn-lg" href="assets/resume.pdf" role="button"><i class="fa fa-download"></i> Download Resume</a></p>
     </div>
 </div>-->
+  <div class="container-fluid golds">
+    <div class="container animated fadeIn">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+          <h1>Expertise </h1>
+        </div>
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+          <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12" *ngFor="let s of home?.skills; let t = index">
+            <h3> {{s?.name}}</h3>
+            <p>{{s?.desc}}</p>
+            <br/>
+            <br/>
+            <br/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <p><a href="#" class="btn btn-primary btn-lg pull-right" role="button">View More <i class="fa fa-arrow-right"></i></a></p>
+    </div>
+  </div>
   <div class="container animated fadeIn">
     <div class="row">
-      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-        <h1>Latest Projects</h1>
-        <h3 class="text-center"> {{ home?.latest?.title }} </h3>
-        <p> {{ home?.latest?.desc }}</p>
-        <p><a href="#" [routerLink]="['/app']" class="btn btn-primary btn-lg" role="button"><i class="fa fa-link"></i> View Projects</a></p>
-      </div>
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h1>Biography</h1>
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -55,21 +78,11 @@
           <p> {{ home?.bio1 }}</p>
           <p> {{ home?.bio2 }}</p>
           <p> {{ home?.bio3 }}</p>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="container animated fadeIn">
-    <div class="row">
-      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-        <h1>My Skills </h1>
-      </div>
-      <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-        <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12" *ngFor="let s of home?.skills; let t = index" [ngStyle]="{'height': '550px'}">
-          <h3 class="text-center"><i class="fa fa-check"></i> {{s.name}}</h3>
-        </div>
-        <p></p>
-        <p></p>
       </div>
     </div>
   </div>
@@ -81,6 +94,8 @@
           <p>
             Email: <a class="email" href="mailto:shatillaprayer@gmail.com">shatillaprayer@gmail.com</a>
           </p>
+          <br/>
+          <br/>
         </div>
       </div>
     </div>

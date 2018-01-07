@@ -1,3 +1,10 @@
+// colors
+$gold: #C4882B;
+$brown: #46310f;
+$white: #ffffff;
+$gray: #f1f1f1;
+
+
 .circles{
 	border-radius: 100px;
 	width: 100px;
@@ -18,9 +25,18 @@
 .contact{
 	width: 100%;
 	height: auto;
-	padding: 30px;
+	background: $gray;
 }
 
 #mainSlideshow, .carousel-inner{
 	height: 600px !important;
+}
+
+.golds{
+	background: $gold;
+}
+
+.item{
+	width: 100%;
+	height: 100%;
 }
