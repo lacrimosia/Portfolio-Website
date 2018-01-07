@@ -22,7 +22,7 @@
 	},
 	"graphicsPage":{
 		"pageName": "Graphic Design",
-		"description": "Here is a showcase of my graphics work. Web, Print, and Gaming.",
+		"description": "Here is a showcase of my Graphic Design works.",
 		"background": "assets/img/bg.jpg"
 	},
 	"latest": {
@@ -123,19 +123,67 @@
 	],
 	"graphics": [
 		{
-			"name": "Illustrated Cheetos",
-			"description": "I drew this in Illustrator for a art project",
-			"picture": "cheetos.png",
-			"thumbLink":"cheetos.png",
-			"fullLink": "cheetos.png",
+			"name": "The Weeknd Package Design",
+			"description": "A CD Concept Design for The Weeknd House of Balloons EP.",
+			"picture": "weeknd.jpg",
+			"thumbLink":"weeknd.jpg",
+			"fullLink": "weeknd.jpg",
 			"active": false
 		},
 		{
-			"name": "Lipton Tea Package",
-			"description": "Created in Illustrator for my package design project.",
-			"picture": "teapack.jpg",
-			"thumbLink":"teapack.jpg",
-			"fullLink": "teapack.jpg",
+			"name": "The Blanks Poster Design",
+			"description": "Created for a marketing campaign for The Blanks Band.",
+			"picture": "blanksposter.jpg",
+			"thumbLink":"blanksposter.jpg",
+			"fullLink": "blanksposter.jpg",
+			"active": false
+		},
+		{
+			"name": "The Blanks CD",
+			"description": "The Blanks CD Design for the Blanks concert.",
+			"picture": "blanks-cd.jpg",
+			"thumbLink":"blanks-cd.jpg",
+			"fullLink": "blanks-cd.jpg",
+			"active": false
+		},
+		{
+			"name": "ExpressWest Stationary",
+			"description": "Stationary System for Expresswest.",
+			"picture": "stationary.jpg",
+			"thumbLink":"stationary.jpg",
+			"fullLink": "stationary.jpg",
+			"active": false
+		},
+		{
+			"name": "MadFest Poster",
+			"description": "Poster design for MADFest movie festival.",
+			"picture": "madfest-poster.jpg",
+			"thumbLink":"madfest-poster.jpg",
+			"fullLink": "madfest-poster.jpg",
+			"active": false
+		},
+		{
+			"name": "MadFest Package Design",
+			"description": "Merchandise Design for MadFest festival.",
+			"picture": "madfest-package.jpg",
+			"thumbLink":"madfest-package.jpg",
+			"fullLink": "madfest-package.jpg",
+			"active": false
+		},
+		{
+			"name": "The Lovely Ladies Poster",
+			"description": "90s Grunge poster design.",
+			"picture": "lovelyladies.jpg",
+			"thumbLink":"lovelyladies.jpg",
+			"fullLink": "lovelyladies.jpg",
+			"active": false
+		},
+		{
+			"name": "Lipton Tea Package Design",
+			"description": "Lipton Tea package design.",
+			"picture": "lipton.jpg",
+			"thumbLink":"lipton.jpg",
+			"fullLink": "lipton.jpg",
 			"active": false
 		}
 	]
