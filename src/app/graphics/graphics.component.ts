@@ -18,10 +18,12 @@ export class GraphicsComponent implements OnInit {
    graphics:any;
    pageName:string;
    pageDesc:string;
+   myIndex:number;
 
   constructor(private _dataService: DataService) { }
 
   ngOnInit() {
+    this.myIndex = 0;
   	this.data = this._dataService.getData()
   		.subscribe(
   			data => {
@@ -53,7 +55,7 @@ export class GraphicsComponent implements OnInit {
   }
 
   getValue(i){
-    this.gr.value = i;
+    this.myIndex = i;
+    console.log(this.myIndex);
   }
-
 }

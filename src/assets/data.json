@@ -127,14 +127,16 @@
 			"description": "I drew this in Illustrator for a art project",
 			"picture": "cheetos.png",
 			"thumbLink":"cheetos.png",
-			"fullLink": "cheetos.png"
+			"fullLink": "cheetos.png",
+			"active": false
 		},
 		{
 			"name": "Lipton Tea Package",
 			"description": "Created in Illustrator for my package design project.",
 			"picture": "teapack.jpg",
 			"thumbLink":"teapack.jpg",
-			"fullLink": "teapack.jpg"
+			"fullLink": "teapack.jpg",
+			"active": false
 		}
 	]
 }
