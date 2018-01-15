@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit{
   
+  year;
 
 ngOnInit(){
-	
+	this.year = new Date();
 }
 
 }
