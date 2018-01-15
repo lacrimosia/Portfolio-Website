@@ -35,7 +35,7 @@
 			"name": "Web Development",
 			"symbol": "fa fa-code",
 			"image": "webdev.jpg",
-			"desc": "HTML5, CSS3, JavaScript, Angular and React, REST, AJAX."
+			"desc": "HTML5, CSS3, SASS, JavaScript, jquery, Angular, React, REST, AJAX."
 		},
 		{
 			"name": "UI/UX Design",
