@@ -35,25 +35,25 @@
 			"name": "Web Development",
 			"symbol": "fa fa-code",
 			"image": "webdev.jpg",
-			"desc": "I use HTML5, CSS3, javaScript, and many frameworks such as Angular and React. I have understanding of REST patterns too. I also use back-end technologies such as PHP and SQL. I also have some experience with Laravel, Python, and Ruby. I mostly do front-end development, but am working more to develop my skills in back-end development."
+			"desc": "HTML5, CSS3, JavaScript, Angular and React, REST, AJAX."
 		},
 		{
 			"name": "UI/UX Design",
-			"symbol": "fa fa-desktop",
+			"symbol": "fa fa-mobile",
 			"image": "uidesign.jpg",
-			"desc": "Web Design is where I began my journey. This interest goes back to when I was in high school. I studied on my own before college. I create my mockups in photoshop or illustrator. I use a lot of wireframes to make sure applications are efficient and elegant for the user."
+			"desc": "Wireframing, Ideation, Process, Interaction, Research, Components."
 		},
 		{
 			"name": "Graphic Design",
-			"symbol": "fa fa-code",
+			"symbol": "fa fa-paint-brush",
 			"image": "gd.jpg",
-			"desc": "I am a classically trained Graphic Designer too. I am majoring in graphic design. Besides web, I also do print design. I design things such as banners, logos, art works, brochures, business cards, branding, and much more."
+			"desc": "Typography, Layout, Design, Process, Communication, Photoshop, Illustrator, InDesign, 3D Modeling, Maya, 3ds Max."
 		},
 		{
 			"name": "Application Development",
 			"symbol": "fa fa-code",
 			"image": "app.jpg",
-			"desc": "I also have some knowledge of languages such as C++. I have created some applications for class. I do have an interest in creating applications for mobile phones and desktop computers. "
+			"desc": "C++, MVC, MV*, Ruby, Laravel, Git(Version Control), OOP"
 		}
 	],
 	"interactives": [
