@@ -11,7 +11,7 @@
 		"background": "assets/img/bg3.jpg"
 	},
 	"interactivesPage":{
-		"pageName": "Interactive Applications",
+		"pageName": "Web Applications",
 		"description": "This page showcases various interactive web applications.",
 		"background": "assets/img/bg.jpg"
 	},
