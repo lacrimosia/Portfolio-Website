@@ -14,7 +14,7 @@
         <div class="desc animated fadeIn" *ngIf="g.active==true">
           <div class="content">
             <h2> {{ g?.value?.name }} </h2>
-            <p> {{ g?.value?.description }}</p>
+            <p> {{ g?.value?.description +"..."}}</p>
             <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" (click)="myIndex=d"><i class="fa fa-search-plus"></i> View Graphic
             </button>
           </div>
@@ -32,6 +32,7 @@
         <h4 class="modal-title" id="myModalLabel">{{graphics[myIndex]?.name}}</h4>
       </div>
       <div class="modal-body">
+        <a href="{{getFullImage(graphics[myIndex]?.live)}}" role="button" class="btn btn-primary btn-lg"  *ngIf="graphics[myIndex]?.live">Launch <i class="fa fa-arrow-right"></i></a>
         <img [src]="getFullImage(graphics[myIndex]?.fullLink)" class="img-responsive center-block" />
       </div>
       <div class="modal-footer">

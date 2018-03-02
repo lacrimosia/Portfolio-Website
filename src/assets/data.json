@@ -123,6 +123,15 @@
 	],
 	"graphics": [
 		{
+			"name": "Port of Subs Brand Communication",
+			"description": "Brand Communication Guideline for Port of Subs.",
+			"picture": "brand.jpg",
+			"thumbLink":"brand.jpg",
+			"fullLink": "brand.jpg",
+			"live": "Port_of_Subs_Manual_Book-Final.pdf",
+			"active": false
+		},
+		{
 			"name": "The Weeknd Package Design",
 			"description": "A CD Concept Design for The Weeknd House of Balloons EP.",
 			"picture": "weeknd.jpg",
