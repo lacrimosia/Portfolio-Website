@@ -125,7 +125,7 @@
 		{
 			"name": "Binar Technologies Research Guide",
 			"description": "This is a book about my research on an application project for Binar Technologies. It describes my research and on target demographics on the project.",
-			"picture": ["Binar-Print-Book.jpg", "Binar-Print-Book.jpg"],
+			"picture": ["Binar-Print-Book.jpg", "Binar-Print-Book1.jpg", "Binar-Print-Book2.jpg", "Binar-Print-Book3.jpg"],
 			"thumbLink":"Binar-Print-Book.jpg",
 			"fullLink": "Binar-Print-Book.jpg",
 			"live": "Binar-Print-Book.pdf",
@@ -134,7 +134,7 @@
 		{
 			"name": "Port of Subs Brand Communication",
 			"description": "Brand Communication Guideline for Port of Subs that describes how to use and promote the brand within a design system.",
-			"picture": ["brand.jpg"],
+			"picture": ["brand4.jpg", "brand1.jpg", "brand2.jpg", "brand3.jpg"],
 			"thumbLink":"brand.jpg",
 			"fullLink": "brand.jpg",
 			"live": "Port_of_Subs_Manual_Book-Final.pdf",

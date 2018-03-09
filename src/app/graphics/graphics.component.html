@@ -10,7 +10,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6" *ngFor="let g of graphics | keys; let d = index">
-      <div class="images" [ngStyle]="{'background-image': 'url(' + getFullImage(g?.value?.picture[0]) + ')', 'background-size': 'cover'}" (mouseenter)="g.active=true" (mouseleave)="g.active=false">
+      <div class="images" [ngStyle]="{'background-image': 'url(' + getFullImage(g?.value?.fullLink) + ')', 'background-size': 'cover'}" (mouseenter)="g.active=true" (mouseleave)="g.active=false">
         <div class="desc animated fadeIn" *ngIf="g.active==true">
           <div class="content">
             <h2> {{ g?.value?.name }} </h2>
@@ -36,7 +36,8 @@
           <p>{{ graphics[myIndex]?.description }}</p>
           <a href="{{getFullImage(graphics[myIndex]?.live)}}" role="button" class="btn btn-primary btn-lg">Launch Project <i class="fa fa-arrow-right"></i></a>
         </div>
-        <div *ngFor="let p of graphics[myIndex]?.picture; let x = index"><img [src]="getFullImage(graphics[myIndex]?.picture[x])" class="img-responsive center-block"/></div>
+        <h2>Screenshots</h2>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" *ngFor="let p of graphics[myIndex]?.picture; let x = index"><img [src]="getFullImage(graphics[myIndex]?.picture[x])" class="img-responsive center-block" style="max-width: auto; max-height: 100%;"/></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
