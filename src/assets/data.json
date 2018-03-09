@@ -123,9 +123,18 @@
 	],
 	"graphics": [
 		{
+			"name": "Binar Technologies Research Guide",
+			"description": "This is a book about my research on an application project for Binar Technologies. It describes my research and on target demographics on the project.",
+			"picture": ["Binar-Print-Book.jpg", "Binar-Print-Book.jpg"],
+			"thumbLink":"Binar-Print-Book.jpg",
+			"fullLink": "Binar-Print-Book.jpg",
+			"live": "Binar-Print-Book.pdf",
+			"active": false
+		},
+		{
 			"name": "Port of Subs Brand Communication",
-			"description": "Brand Communication Guideline for Port of Subs.",
-			"picture": "brand.jpg",
+			"description": "Brand Communication Guideline for Port of Subs that describes how to use and promote the brand within a design system.",
+			"picture": ["brand.jpg"],
 			"thumbLink":"brand.jpg",
 			"fullLink": "brand.jpg",
 			"live": "Port_of_Subs_Manual_Book-Final.pdf",
@@ -134,7 +143,7 @@
 		{
 			"name": "The Weeknd Package Design",
 			"description": "A CD Concept Design for The Weeknd House of Balloons EP.",
-			"picture": "weeknd.jpg",
+			"picture": ["weeknd.jpg"],
 			"thumbLink":"weeknd.jpg",
 			"fullLink": "weeknd.jpg",
 			"active": false
@@ -142,7 +151,7 @@
 		{
 			"name": "The Blanks Poster Design",
 			"description": "Created for a marketing campaign for The Blanks Band.",
-			"picture": "blanksposter.jpg",
+			"picture": ["blanksposter.jpg"],
 			"thumbLink":"blanksposter.jpg",
 			"fullLink": "blanksposter.jpg",
 			"active": false
@@ -150,7 +159,7 @@
 		{
 			"name": "The Blanks CD",
 			"description": "The Blanks CD Design for the Blanks concert.",
-			"picture": "blanks-cd.jpg",
+			"picture": ["blanks-cd.jpg"],
 			"thumbLink":"blanks-cd.jpg",
 			"fullLink": "blanks-cd.jpg",
 			"active": false
@@ -158,7 +167,7 @@
 		{
 			"name": "ExpressWest Stationary",
 			"description": "Stationary System for Expresswest.",
-			"picture": "stationary.jpg",
+			"picture": ["stationary.jpg"],
 			"thumbLink":"stationary.jpg",
 			"fullLink": "stationary.jpg",
 			"active": false
@@ -166,7 +175,7 @@
 		{
 			"name": "MadFest Poster",
 			"description": "Poster design for MADFest movie festival.",
-			"picture": "madfest-poster.jpg",
+			"picture": ["madfest-poster.jpg"],
 			"thumbLink":"madfest-poster.jpg",
 			"fullLink": "madfest-poster.jpg",
 			"active": false
@@ -174,7 +183,7 @@
 		{
 			"name": "MadFest Package Design",
 			"description": "Merchandise Design for MadFest festival.",
-			"picture": "madfest-package.jpg",
+			"picture": ["madfest-package.jpg"],
 			"thumbLink":"madfest-package.jpg",
 			"fullLink": "madfest-package.jpg",
 			"active": false
@@ -182,7 +191,7 @@
 		{
 			"name": "The Lovely Ladies Poster",
 			"description": "90s Grunge poster design.",
-			"picture": "lovelyladies.jpg",
+			"picture": ["lovelyladies.jpg"],
 			"thumbLink":"lovelyladies.jpg",
 			"fullLink": "lovelyladies.jpg",
 			"active": false
@@ -190,7 +199,7 @@
 		{
 			"name": "Lipton Tea Package Design",
 			"description": "Lipton Tea package design.",
-			"picture": "lipton.jpg",
+			"picture": ["lipton.jpg"],
 			"thumbLink":"lipton.jpg",
 			"fullLink": "lipton.jpg",
 			"active": false

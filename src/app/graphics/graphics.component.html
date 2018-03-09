@@ -10,12 +10,12 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6" *ngFor="let g of graphics | keys; let d = index">
-      <div class="images" [ngStyle]="{'background-image': 'url(' + getFullImage(g?.value?.picture) + ')', 'background-size': 'cover'}" (mouseenter)="g.active=true" (mouseleave)="g.active=false">
+      <div class="images" [ngStyle]="{'background-image': 'url(' + getFullImage(g?.value?.picture[0]) + ')', 'background-size': 'cover'}" (mouseenter)="g.active=true" (mouseleave)="g.active=false">
         <div class="desc animated fadeIn" *ngIf="g.active==true">
           <div class="content">
             <h2> {{ g?.value?.name }} </h2>
             <p> {{ g?.value?.description +"..."}}</p>
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" (click)="myIndex=d"><i class="fa fa-search-plus"></i> View Graphic
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" (click)="myIndex=d"><i class="fa fa-search-plus"></i> View Project
             </button>
           </div>
         </div>
@@ -32,8 +32,11 @@
         <h4 class="modal-title" id="myModalLabel">{{graphics[myIndex]?.name}}</h4>
       </div>
       <div class="modal-body">
-        <a href="{{getFullImage(graphics[myIndex]?.live)}}" role="button" class="btn btn-primary btn-lg"  *ngIf="graphics[myIndex]?.live">Launch <i class="fa fa-arrow-right"></i></a>
-        <img [src]="getFullImage(graphics[myIndex]?.fullLink)" class="img-responsive center-block" />
+        <div *ngIf="graphics[myIndex]?.live">
+          <p>{{ graphics[myIndex]?.description }}</p>
+          <a href="{{getFullImage(graphics[myIndex]?.live)}}" role="button" class="btn btn-primary btn-lg">Launch Project <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div *ngFor="let p of graphics[myIndex]?.picture; let x = index"><img [src]="getFullImage(graphics[myIndex]?.picture[x])" class="img-responsive center-block"/></div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
