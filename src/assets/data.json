@@ -68,7 +68,7 @@
 			"name": "World Map (Past and Present)",
 			"description": "This is an application used in an online UNLV course and UNLV Libraries. It showcases various books and media from all over the world. It also teaches students about the history of the past and present in english literature. This project uses angularJS.",
 			"picture": ["map.jpg", "map1.png", "map2.png", "map3.png", "map4.png", "map5.png"],
-			"links":"http://courses.online.unlv.edu/courses/ENG231_RSabbath/#/",
+			"links":"http://guides.library.unlv.edu/eng231",
 			"desc": false
 		},
 		{
