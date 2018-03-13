@@ -102,7 +102,7 @@
 		{
 			"name": "Conventional Attributes",
 			"description": "This was an exercise for an online course at UNLV. It uses chartJS and jquery/javascript",
-			"picture": ["gender.jpg"],
+			"picture": ["gender.jpg", "gender1.png", "gender2.png", "gender3.png"],
 			"links":"http://courses.online.unlv.edu/courses/WMST/WMST113/ConventionalAttributes/masc_fem/",
 			"desc": false
 		}
