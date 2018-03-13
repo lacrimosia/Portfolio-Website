@@ -60,7 +60,7 @@
 		{
 			"name": "Healthcare Learning App",
 			"description": "This is a concept for an eLearning course to learn medical skills. This uses Angular 5 library.",
-			"picture": ["healthcare.png", "healthcare.png"],
+			"picture": ["healthcare.png", "healthcare1.png", "healthcare2.png", "healthcare3.png", "healthcare4.png"],
 			"links":"http://spdevstudios.com/healthcarelearning/",
 			"desc": false
 		},
