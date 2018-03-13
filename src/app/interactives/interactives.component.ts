@@ -17,6 +17,7 @@ export class InteractivesComponent implements OnInit {
    interactives:any;
    pageName:string;
    pageDesc:string;
+   Index:number;
 
   constructor(private _dataService: DataService) { }
 
@@ -40,6 +41,10 @@ export class InteractivesComponent implements OnInit {
 
   getImage(image){
     return 'assets/img/thumbs/web/' + image;
+  }
+
+  getFullImage(image){
+    return 'assets/img/graphics/full/' + image;
   }
 
 }
