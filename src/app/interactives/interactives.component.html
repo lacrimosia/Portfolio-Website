@@ -33,9 +33,9 @@
         <h4 class="modal-title" id="myModalLabel">{{interactives[Index]?.name}}</h4>
       </div>
       <div class="modal-body">
-        <div *ngIf="interactives[Index]?.live">
+        <div *ngIf="interactives[Index]?.name">
           <p>{{ interactives[Index]?.description }} Here are some screenshots from the project.</p>
-          <a href="{{getFullImage(graphics[myIndex]?.live)}}" role="button" class="btn btn-primary btn-lg">Launch Project <i class="fa fa-arrow-right"></i></a>
+          <p><a href="{{interactives[Index]?.links}}" role="button" class="btn btn-primary btn-lg">Launch Project <i class="fa fa-arrow-right"></i></a></p>
         </div>
         <div class="col-sm-12 col-xs-12" *ngFor="let z of interactives[Index]?.picture; let u = index" [ngClass]="{'col-lg-12 col-md-12': interactives[Index]?.picture.length>1, 'col-lg-6 col-md-6': interactives[Index]?.picture.length>1}"><img [src]="getImage(interactives[Index]?.picture[u])" class="img-responsive center-block" style="max-width: auto; max-height: 100%;"/></div>
       </div>
