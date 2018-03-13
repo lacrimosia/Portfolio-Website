@@ -65,38 +65,38 @@
 			"desc": false
 		},
 		{
+			"name": "World Map (Past and Present)",
+			"description": "This is an application used in an online UNLV course and UNLV Libraries. It showcases various books and media from all over the world. It also teaches students about the history of the past and present in english literature. This project uses angularJS.",
+			"picture": ["map.jpg", "map1.png", "map2.png", "map3.png", "map4.png", "map5.png"],
+			"links":"http://courses.online.unlv.edu/courses/ENG231_RSabbath/#/",
+			"desc": false
+		},
+		{
 			"name": "Activity Planner",
 			"description": "This is a custom planner used in an online UNLV course. This uses Angular 2 library.",
-			"picture": ["planner.jpg"],
+			"picture": ["planner.jpg", "planner1.png", "planner2.png", "planner3.png"],
 			"links":"http://courses.online.unlv.edu/courses/ENV/ENV498/Planner/",
 			"desc": false
 		},
 		{
 			"name": "Blood Pressure",
 			"description": "This is a blood pressure application used in an online UNLV course. This uses jquery/javascript.",
-			"picture": ["bp.jpg"],
+			"picture": ["bp.jpg", "bp1.png", "bp2.png", "bp3.png"],
 			"links":"/bloodpressure/",
 			"desc": false
 		},
 		{
 			"name": "Binar Multimedia App",
 			"description": "This is an ongoing project that I created for my web design class for a car system. It was made with angularJS.",
-			"picture": ["binar.jpg"],
+			"picture": ["binar.jpg", "binar1.jpg", "binar3.png", "binar4.png"],
 			"links":"binar/#/",
 			"desc": false
 		},
 		{
 			"name": "Monster Genetics",
 			"description": "This is an application used in an online UNLV course. It teaches students how genetics work. This uses jquery/javascript.",
-			"picture": ["monster.jpg"],
+			"picture": ["monster.jpg","monster1.png","monster2.png","monster3.png"],
 			"links":"frankenstein_lab/#",
-			"desc": false
-		},
-		{
-			"name": "World Map (Past and Present)",
-			"description": "This is an application used in an online UNLV course and UNLV Libraries. It showcases various books and media from all over the world. It also teaches students about the history of the past and present in english literature. This project uses angularJS.",
-			"picture": ["map.jpg"],
-			"links":"http://courses.online.unlv.edu/courses/ENG231_RSabbath/#/",
 			"desc": false
 		},
 		{

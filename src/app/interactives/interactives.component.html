@@ -15,7 +15,7 @@
           <div class="content">
             <h2> {{ n.value.name }} </h2>
             <p> {{ n.value.description }}</p>
-            <p><button (click)="Index=i" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1" >Launch App <i class="fa fa-arrow-right"></i></button></p>
+            <p><button (click)="Index=i" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1" >View Project <i class="fa fa-arrow-right"></i></button></p>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
       <div class="modal-body">
         <div *ngIf="interactives[Index]?.name">
           <p>{{ interactives[Index]?.description }} Here are some screenshots from the project.</p>
-          <p><a href="{{interactives[Index]?.links}}" role="button" class="btn btn-primary btn-lg">Launch Project <i class="fa fa-arrow-right"></i></a></p>
+          <p><a href="{{interactives[Index]?.links}}" role="button" class="btn btn-primary btn-lg" target="_blank">Launch Project <i class="fa fa-arrow-right"></i></a></p>
         </div>
         <div class="ints col-md-6 col-lg-6 col-sm-12 col-xs-12" *ngFor="let z of interactives[Index]?.picture; let u = index"  [ngStyle]="{'background-image': 'url(' + getImage(interactives[Index]?.picture[u]) + ')', 'background-size': 'cover'}"></div>
       </div>
