@@ -149,19 +149,11 @@
 			"active": false
 		},
 		{
-			"name": "The Blanks Poster Design",
+			"name": "The Blanks Marketing Project",
 			"description": "Created for a marketing campaign for The Blanks Band.",
-			"picture": ["blanksposter.jpg"],
+			"picture": ["blanksposter.jpg", "blanks-cd.jpg"],
 			"thumbLink":"blanksposter.jpg",
 			"fullLink": "blanksposter.jpg",
-			"active": false
-		},
-		{
-			"name": "The Blanks CD",
-			"description": "The Blanks CD Design for the Blanks concert.",
-			"picture": ["blanks-cd.jpg"],
-			"thumbLink":"blanks-cd.jpg",
-			"fullLink": "blanks-cd.jpg",
 			"active": false
 		},
 		{
@@ -173,19 +165,11 @@
 			"active": false
 		},
 		{
-			"name": "MadFest Poster",
-			"description": "Poster design for MADFest movie festival.",
-			"picture": ["madfest-poster.jpg"],
+			"name": "MadFest Movie Festival Design",
+			"description": "Merch design for MADFest movie festival.",
+			"picture": ["madfest-package.jpg", "madfest-poster.jpg"],
 			"thumbLink":"madfest-poster.jpg",
 			"fullLink": "madfest-poster.jpg",
-			"active": false
-		},
-		{
-			"name": "MadFest Package Design",
-			"description": "Merchandise Design for MadFest festival.",
-			"picture": ["madfest-package.jpg"],
-			"thumbLink":"madfest-package.jpg",
-			"fullLink": "madfest-package.jpg",
 			"active": false
 		},
 		{
