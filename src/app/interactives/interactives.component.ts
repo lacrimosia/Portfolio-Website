@@ -18,6 +18,7 @@ export class InteractivesComponent implements OnInit {
    pageName:string;
    pageDesc:string;
    Index:number;
+   clickIndex:number;
 
   constructor(private _dataService: DataService) { }
 
