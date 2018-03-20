@@ -1,200 +1,245 @@
 {
-	"title": "",
-	"value": 0,
-	"bio1": "Shatilla Prayer is a Graphic Designer and Web Developer originally from Chicago, IL. Shatilla Prayer has earned their Bachelors of Science Degree in Graphic Design from UNLV. Shatilla has spent most of their undergraduate career working on campus assisting UNLV Online Education with developing interactive courses for online students. Shatilla Prayer has years of experience developing eLearning content and developing interactive user applications for UNLV.",
-	"bio2": "As Shatilla explored their undergraduate degree, they has taken many courses in Graphic Design, Business, Computer Science, Fine Arts, and Sciences. This has given her many diverse career options for the future. Being open to various areas of study makes Shatilla is a very versatile designer and developer.",
-	"bio3": "Overall, Shatilla Prayer loves to develop new user experiences that apply high-level learning and development of new ideas. In the future, Shatilla Prayer plans to pursue graduate studies to learn more about Computer Science and Human-Computer Interaction.",
-	"bioImage": "me.jpg",
-	"homePage":{
-		"pageName": "Hi, Thanks for visiting.",
-		"description": "I am a Web Designer, Developer, Web Enthusiast, Shark Lover, and Student. Please take a look around.",
-		"background": "assets/img/bg3.jpg"
-	},
-	"interactivesPage":{
-		"pageName": "Web Applications",
-		"description": "This page showcases various interactive web applications and eLearning Solutions.",
-		"background": "assets/img/bg.jpg"
-	},
-	"wipsPage":{
-		"pageName": "Works In Progress",
-		"description": "This page shows my current works in progress. These are projects that I am currently working on.",
-		"background": "assets/img/bg2.jpg"
-	},
-	"graphicsPage":{
-		"pageName": "Graphic Design",
-		"description": "Here is a showcase of my Graphic Design works.",
-		"background": "assets/img/bg.jpg"
-	},
-	"latest": {
-		"title": "Interactive Web Applications",
-		"desc": "You can view my latest work here. I have created many front-end applications that help assist students with learning online. Many of the students have been able to utilize my interactives in real life scenarios. These interactives provide skills and incorporate learning in a fun and productive way.",
-		"image": "thumbs/web/planner.jpg"
-	},
-	"skills":[
-		{
-			"name": "Web Development",
-			"symbol": "fa fa-code",
-			"image": "webdev.jpg",
-			"desc": "HTML5, CSS3, SASS, JavaScript, jquery, Angular, React, REST, AJAX."
-		},
-		{
-			"name": "UI/UX Design",
-			"symbol": "fa fa-mobile",
-			"image": "uidesign.jpg",
-			"desc": "Wireframing, Ideation, Process, Interaction, Research, Components."
-		},
-		{
-			"name": "Graphic Design",
-			"symbol": "fa fa-paint-brush",
-			"image": "gd.jpg",
-			"desc": "Typography, Layout, Design, Process, Communication, Photoshop, Illustrator, InDesign, 3D Modeling, Maya, 3ds Max."
-		},
-		{
-			"name": "Application Development",
-			"symbol": "fa fa-code",
-			"image": "app.jpg",
-			"desc": "C++, MVC, MV*, Ruby, Laravel, Git(Version Control), OOP"
-		}
-	],
-	"interactives": [
-		{
-			"name": "Healthcare Learning App",
-			"description": "This is a concept for an eLearning course to learn medical skills. This uses Angular 5 library.",
-			"picture": ["healthcare.png", "healthcare1.png", "healthcare2.png", "healthcare3.png", "healthcare4.png"],
-			"links":"http://spdevstudios.com/healthcarelearning/",
-			"desc": false
-		},
-		{
-			"name": "World Map (Past and Present)",
-			"description": "This is an application used in an online UNLV course and UNLV Libraries. It showcases various books and media from all over the world. It also teaches students about the history of the past and present in english literature. This project uses angularJS.",
-			"picture": ["map.jpg", "map1.png", "map2.png", "map3.png", "map4.png", "map5.png"],
-			"links":"http://guides.library.unlv.edu/eng231",
-			"desc": false
-		},
-		{
-			"name": "Activity Planner",
-			"description": "This is a custom planner used in an online UNLV course. This uses Angular 2 library.",
-			"picture": ["planner.jpg", "planner1.png", "planner2.png", "planner3.png"],
-			"links":"http://courses.online.unlv.edu/courses/ENV/ENV498/Planner/",
-			"desc": false
-		},
-		{
-			"name": "Blood Pressure",
-			"description": "This is a blood pressure application used in an online UNLV course. This uses jquery/javascript.",
-			"picture": ["bp.jpg", "bp1.png", "bp2.png", "bp3.png"],
-			"links":"/bloodpressure/",
-			"desc": false
-		},
-		{
-			"name": "Binar Multimedia App",
-			"description": "This is an ongoing project that I created for my web design class for a car system. It was made with angularJS.",
-			"picture": ["binar.jpg", "binar1.jpg", "binar3.png", "binar4.png"],
-			"links":"binar/#/",
-			"desc": false
-		},
-		{
-			"name": "Monster Genetics",
-			"description": "This is an application used in an online UNLV course. It teaches students how genetics work. This uses jquery/javascript.",
-			"picture": ["monster.jpg","monster1.png","monster2.png","monster3.png"],
-			"links":"frankenstein_lab/#",
-			"desc": false
-		},
-		{
-			"name": "Conventional Attributes",
-			"description": "This was an exercise for an online course at UNLV. It uses chartJS and jquery/javascript",
-			"picture": ["gender.jpg", "gender1.png", "gender2.png", "gender3.png"],
-			"links":"http://courses.online.unlv.edu/courses/WMST/WMST113/ConventionalAttributes/masc_fem/",
-			"desc": false
-		}
-	],
-	"wips": [
-		{
-			"name": "Customized Planner",
-			"description": "This is a custom planner that will be a way for professors the generate their own planners. It is made with angular 2.",
-			"picture": "cp.jpg",
-			"links":"http://courses.online.unlv.edu/courses/URST/planner/#/admin"
-		}, 
-		{
-			"name": "3D Topographical Map",
-			"description": "This is an experimental project that I did for UNLV Online Ed. It is a 3d map for a geology class. It uses BabylonJS.",
-			"picture": "mountaint.jpg",
-			"links":"http://courses.online.unlv.edu/3dMap/"
-		}
-	],
-	"graphics": [
-		{
-			"name": "Binar Technologies Research Guide",
-			"description": "This is a book about my research on an application project for Binar Technologies. It describes my research and on target demographics on the project.",
-			"picture": ["Binar-Print-Book22.jpg", "Binar-Print-Book1.jpg", "Binar-Print-Book2.jpg", "Binar-Print-Book3.jpg"],
-			"thumbLink":"Binar-Print-Book22.jpg",
-			"fullLink": "Binar-Print-Book22.jpg",
-			"live": "Binar-Print-Book.pdf",
-			"active": false
-		},
-		{
-			"name": "Port of Subs Brand Communication",
-			"description": "Brand Communication Guideline for Port of Subs that describes how to use and promote the brand within a design system.",
-			"picture": ["brand4.jpg", "brand1.jpg", "brand2.jpg", "brand3.jpg", "brand5.jpg", "brand6.jpg"],
-			"thumbLink":"brand.jpg",
-			"fullLink": "brand.jpg",
-			"live": "Port_of_Subs_Manual_Book-Final.pdf",
-			"active": false
-		},
-		{
-			"name": "The Weeknd Package Design",
-			"description": "A CD Concept Design for The Weeknd House of Balloons EP.",
-			"picture": ["weeknd.jpg"],
-			"thumbLink":"weeknd.jpg",
-			"fullLink": "weeknd.jpg",
-			"active": false
-		},
-		{
-			"name": "The Blanks Marketing Project",
-			"description": "Created for a marketing campaign for The Blanks Band.",
-			"picture": ["blanksposter.jpg", "blanks-cd.jpg"],
-			"thumbLink":"blanksposter.jpg",
-			"fullLink": "blanksposter.jpg",
-			"active": false
-		},
-		{
-			"name": "ExpressWest Stationary",
-			"description": "Stationary System for Expresswest.",
-			"picture": ["stationary.jpg"],
-			"thumbLink":"stationary.jpg",
-			"fullLink": "stationary.jpg",
-			"active": false
-		},
-		{
-			"name": "Cheetos Illustration",
-			"description": "Cheetos illustration created in Illustrator.",
-			"picture": ["cheetos.png"],
-			"thumbLink":"cheetos.png",
-			"fullLink": "cheetos.png",
-			"active": false
-		},
-		{
-			"name": "MadFest Movie Festival Design",
-			"description": "Merch design for MADFest movie festival.",
-			"picture": ["madfest-package.jpg", "madfest-poster.jpg"],
-			"thumbLink":"madfest-poster.jpg",
-			"fullLink": "madfest-poster.jpg",
-			"active": false
-		},
-		{
-			"name": "The Lovely Ladies Poster",
-			"description": "90s Grunge poster design.",
-			"picture": ["lovelyladies.jpg"],
-			"thumbLink":"lovelyladies.jpg",
-			"fullLink": "lovelyladies.jpg",
-			"active": false
-		},
-		{
-			"name": "Lipton Tea Package Design",
-			"description": "Lipton Tea package design.",
-			"picture": ["lipton.jpg"],
-			"thumbLink":"lipton.jpg",
-			"fullLink": "lipton.jpg",
-			"active": false
-		}		
-	]
+  "title": "",
+  "value": 0,
+  "bio1": "Shatilla Prayer is a Graphic Designer and Web Developer originally from Chicago, IL. Shatilla Prayer has earned their Bachelors of Science Degree in Graphic Design from UNLV. Shatilla has spent most of their undergraduate career working on campus assisting UNLV Online Education with developing interactive courses for online students. Shatilla Prayer has years of experience developing eLearning content and developing interactive user applications for UNLV.",
+  "bio2": "As Shatilla explored their undergraduate degree, they has taken many courses in Graphic Design, Business, Computer Science, Fine Arts, and Sciences. This has given her many diverse career options for the future. Being open to various areas of study makes Shatilla is a very versatile designer and developer.",
+  "bio3": "Overall, Shatilla Prayer loves to develop new user experiences that apply high-level learning and development of new ideas. In the future, Shatilla Prayer plans to pursue graduate studies to learn more about Computer Science and Human-Computer Interaction.",
+  "bioImage": "me.jpg",
+  "homePage":
+  {
+    "pageName": "Hi, Thanks for visiting.",
+    "description": "I am a Web Designer, Developer, Web Enthusiast, Shark Lover, and Student. Please take a look around.",
+    "background": "assets/img/bg3.jpg"
+  },
+  "interactivesPage":
+  {
+    "pageName": "Web Applications",
+    "description": "This page showcases various interactive web applications and eLearning Solutions.",
+    "background": "assets/img/bg.jpg"
+  },
+  "wipsPage":
+  {
+    "pageName": "Works In Progress",
+    "description": "This page shows my current works in progress. These are projects that I am currently working on.",
+    "background": "assets/img/bg2.jpg"
+  },
+  "graphicsPage":
+  {
+    "pageName": "Graphic Design",
+    "description": "Here is a showcase of my Graphic Design works.",
+    "background": "assets/img/bg.jpg"
+  },
+  "latest":
+  {
+    "title": "Interactive Web Applications",
+    "desc": "You can view my latest work here. I have created many front-end applications that help assist students with learning online. Many of the students have been able to utilize my interactives in real life scenarios. These interactives provide skills and incorporate learning in a fun and productive way.",
+    "image": "thumbs/web/planner.jpg"
+  },
+  "skills": [
+  {
+    "name": "Web Development",
+    "symbol": "fa fa-code",
+    "image": "webdev.jpg",
+    "desc": "HTML5, CSS3, SASS, JavaScript, jquery, Angular, React, REST, AJAX."
+  },
+  {
+    "name": "UI/UX Design",
+    "symbol": "fa fa-mobile",
+    "image": "uidesign.jpg",
+    "desc": "Wireframing, Ideation, Process, Interaction, Research, Components."
+  },
+  {
+    "name": "Graphic Design",
+    "symbol": "fa fa-paint-brush",
+    "image": "gd.jpg",
+    "desc": "Typography, Layout, Design, Process, Communication, Photoshop, Illustrator, InDesign, 3D Modeling, Maya, 3ds Max."
+  },
+  {
+    "name": "Application Development",
+    "symbol": "fa fa-code",
+    "image": "app.jpg",
+    "desc": "C++, MVC, MV*, Ruby, Laravel, Git(Version Control), OOP"
+  }],
+  "interactives": [
+  {
+    "name": "Healthcare Learning App",
+    "description": "This is a concept for an eLearning course to learn medical skills. This uses Angular 5 library.",
+    "picture": [
+    {
+      "name": "healthcare.png",
+      "desc": "Responsive Design"
+    },
+    {
+      "name": "healthcare1.png",
+      "desc": "Course Listing Homepage."
+    },
+    {
+      "name": "healthcare2.png",
+      "desc": "Understanding Blood Pressure module in the course."
+    },
+    {
+      "name": "healthcare3.png",
+      "desc": "Course module overview."
+    },
+    {
+      "name": "healthcare4.png",
+      "desc": "Blood Pressure Simulation page."
+    }],
+    "links": "http://spdevstudios.com/healthcarelearning/",
+    "desc": false
+  },
+  {
+    "name": "World Map (Past and Present)",
+    "description": "This is an application used in an online UNLV course and UNLV Libraries. It showcases various books and media from all over the world. It also teaches students about the history of the past and present in english literature. This project uses angularJS.",
+    "picture": [
+    {
+      "name": "map.jpg",
+      "desc": "Present African Region screen."
+    },
+    {
+      "name": "map1.png",
+      "desc": "Home page overview."
+    },
+    {
+      "name": "map2.png",
+      "desc": "Mediterranean Present screen."
+    },
+    {
+      "name": "map3.png",
+      "desc": "Mediterranean Past screen."
+    },
+    {
+      "name": "map4.png",
+      "desc": "Information Screen about the Nile."
+    },
+    {
+      "name": "map5.png",
+      "desc": "Recommended Books Screen."
+    }],
+    "links": "http://guides.library.unlv.edu/eng231",
+    "desc": false
+  },
+  {
+    "name": "Activity Planner",
+    "description": "This is a custom planner used in an online UNLV course. This uses Angular 2 library.",
+    "picture": ["planner.jpg", "planner1.png", "planner2.png", "planner3.png"],
+    "links": "http://courses.online.unlv.edu/courses/ENV/ENV498/Planner/",
+    "desc": false
+  },
+  {
+    "name": "Blood Pressure",
+    "description": "This is a blood pressure application used in an online UNLV course. This uses jquery/javascript.",
+    "picture": ["bp.jpg", "bp1.png", "bp2.png", "bp3.png"],
+    "links": "/bloodpressure/",
+    "desc": false
+  },
+  {
+    "name": "Binar Multimedia App",
+    "description": "This is an ongoing project that I created for my web design class for a car system. It was made with angularJS.",
+    "picture": ["binar.jpg", "binar1.jpg", "binar3.png", "binar4.png"],
+    "links": "binar/#/",
+    "desc": false
+  },
+  {
+    "name": "Monster Genetics",
+    "description": "This is an application used in an online UNLV course. It teaches students how genetics work. This uses jquery/javascript.",
+    "picture": ["monster.jpg", "monster1.png", "monster2.png", "monster3.png"],
+    "links": "frankenstein_lab/#",
+    "desc": false
+  },
+  {
+    "name": "Conventional Attributes",
+    "description": "This was an exercise for an online course at UNLV. It uses chartJS and jquery/javascript",
+    "picture": ["gender.jpg", "gender1.png", "gender2.png", "gender3.png"],
+    "links": "http://courses.online.unlv.edu/courses/WMST/WMST113/ConventionalAttributes/masc_fem/",
+    "desc": false
+  }],
+  "wips": [
+  {
+    "name": "Customized Planner",
+    "description": "This is a custom planner that will be a way for professors the generate their own planners. It is made with angular 2.",
+    "picture": "cp.jpg",
+    "links": "http://courses.online.unlv.edu/courses/URST/planner/#/admin"
+  },
+  {
+    "name": "3D Topographical Map",
+    "description": "This is an experimental project that I did for UNLV Online Ed. It is a 3d map for a geology class. It uses BabylonJS.",
+    "picture": "mountaint.jpg",
+    "links": "http://courses.online.unlv.edu/3dMap/"
+  }],
+  "graphics": [
+  {
+    "name": "Binar Technologies Research Guide",
+    "description": "This is a book about my research on an application project for Binar Technologies. It describes my research and on target demographics on the project.",
+    "picture": ["Binar-Print-Book22.jpg", "Binar-Print-Book1.jpg", "Binar-Print-Book2.jpg", "Binar-Print-Book3.jpg"],
+    "thumbLink": "Binar-Print-Book22.jpg",
+    "fullLink": "Binar-Print-Book22.jpg",
+    "live": "Binar-Print-Book.pdf",
+    "active": false
+  },
+  {
+    "name": "Port of Subs Brand Communication",
+    "description": "Brand Communication Guideline for Port of Subs that describes how to use and promote the brand within a design system.",
+    "picture": ["brand4.jpg", "brand1.jpg", "brand2.jpg", "brand3.jpg", "brand5.jpg", "brand6.jpg"],
+    "thumbLink": "brand.jpg",
+    "fullLink": "brand.jpg",
+    "live": "Port_of_Subs_Manual_Book-Final.pdf",
+    "active": false
+  },
+  {
+    "name": "The Weeknd Package Design",
+    "description": "A CD Concept Design for The Weeknd House of Balloons EP.",
+    "picture": ["weeknd.jpg"],
+    "thumbLink": "weeknd.jpg",
+    "fullLink": "weeknd.jpg",
+    "active": false
+  },
+  {
+    "name": "The Blanks Marketing Project",
+    "description": "Created for a marketing campaign for The Blanks Band.",
+    "picture": ["blanksposter.jpg", "blanks-cd.jpg"],
+    "thumbLink": "blanksposter.jpg",
+    "fullLink": "blanksposter.jpg",
+    "active": false
+  },
+  {
+    "name": "ExpressWest Stationary",
+    "description": "Stationary System for Expresswest.",
+    "picture": ["stationary.jpg"],
+    "thumbLink": "stationary.jpg",
+    "fullLink": "stationary.jpg",
+    "active": false
+  },
+  {
+    "name": "Cheetos Illustration",
+    "description": "Cheetos illustration created in Illustrator.",
+    "picture": ["cheetos.png"],
+    "thumbLink": "cheetos.png",
+    "fullLink": "cheetos.png",
+    "active": false
+  },
+  {
+    "name": "MadFest Movie Festival Design",
+    "description": "Merch design for MADFest movie festival.",
+    "picture": ["madfest-package.jpg", "madfest-poster.jpg"],
+    "thumbLink": "madfest-poster.jpg",
+    "fullLink": "madfest-poster.jpg",
+    "active": false
+  },
+  {
+    "name": "The Lovely Ladies Poster",
+    "description": "90s Grunge poster design.",
+    "picture": ["lovelyladies.jpg"],
+    "thumbLink": "lovelyladies.jpg",
+    "fullLink": "lovelyladies.jpg",
+    "active": false
+  },
+  {
+    "name": "Lipton Tea Package Design",
+    "description": "Lipton Tea package design.",
+    "picture": ["lipton.jpg"],
+    "thumbLink": "lipton.jpg",
+    "fullLink": "lipton.jpg",
+    "active": false
+  }]
 }
