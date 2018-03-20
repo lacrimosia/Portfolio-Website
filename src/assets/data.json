@@ -125,9 +125,9 @@
 		{
 			"name": "Binar Technologies Research Guide",
 			"description": "This is a book about my research on an application project for Binar Technologies. It describes my research and on target demographics on the project.",
-			"picture": ["Binar-Print-Book.jpg", "Binar-Print-Book1.jpg", "Binar-Print-Book2.jpg", "Binar-Print-Book3.jpg"],
-			"thumbLink":"Binar-Print-Book.jpg",
-			"fullLink": "Binar-Print-Book.jpg",
+			"picture": ["Binar-Print-Book22.jpg", "Binar-Print-Book1.jpg", "Binar-Print-Book2.jpg", "Binar-Print-Book3.jpg"],
+			"thumbLink":"Binar-Print-Book22.jpg",
+			"fullLink": "Binar-Print-Book22.jpg",
 			"live": "Binar-Print-Book.pdf",
 			"active": false
 		},
@@ -165,6 +165,14 @@
 			"active": false
 		},
 		{
+			"name": "Cheetos Illustration",
+			"description": "Cheetos illustration created in Illustrator.",
+			"picture": ["cheetos.png"],
+			"thumbLink":"cheetos.png",
+			"fullLink": "cheetos.png",
+			"active": false
+		},
+		{
 			"name": "MadFest Movie Festival Design",
 			"description": "Merch design for MADFest movie festival.",
 			"picture": ["madfest-package.jpg", "madfest-poster.jpg"],
@@ -187,6 +195,6 @@
 			"thumbLink":"lipton.jpg",
 			"fullLink": "lipton.jpg",
 			"active": false
-		}
+		}		
 	]
 }
