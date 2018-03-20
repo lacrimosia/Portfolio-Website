@@ -122,35 +122,115 @@
   {
     "name": "Activity Planner",
     "description": "This is a custom planner used in an online UNLV course. This uses Angular 2 library.",
-    "picture": ["planner.jpg", "planner1.png", "planner2.png", "planner3.png"],
+    "picture": [
+    {
+      "name": "planner.jpg",
+      "desc": ""
+    },
+    {
+      "name": "planner1.png",
+      "desc": ""
+    },
+    {
+     "name": "planner2.png",
+      "desc": ""
+    },
+    {
+     "name": "planner3.png",
+      "desc": ""
+    }],
     "links": "http://courses.online.unlv.edu/courses/ENV/ENV498/Planner/",
     "desc": false
   },
   {
     "name": "Blood Pressure",
     "description": "This is a blood pressure application used in an online UNLV course. This uses jquery/javascript.",
-    "picture": ["bp.jpg", "bp1.png", "bp2.png", "bp3.png"],
+    "picture": [
+    {
+     "name": "bp.jpg",
+     "desc": ""
+    },
+    {
+     "name": "bp1.png",
+      "desc": ""
+    },
+    {
+      "name": "bp2.png",
+      "desc": ""
+    },
+    {
+      "name": "bp3.png",
+      "desc": ""
+    }],
     "links": "/bloodpressure/",
     "desc": false
   },
   {
     "name": "Binar Multimedia App",
     "description": "This is an ongoing project that I created for my web design class for a car system. It was made with angularJS.",
-    "picture": ["binar.jpg", "binar1.jpg", "binar3.png", "binar4.png"],
+    "picture": [
+    {
+     "name": "binar.jpg",
+      "desc": ""
+    },
+    {
+     "name": "binar1.jpg",
+      "desc": ""
+    },
+    {
+      "name": "binar3.png",
+      "desc": ""
+    },
+    {
+      "name": "binar4.png",
+      "desc": ""
+    }],
     "links": "binar/#/",
     "desc": false
   },
   {
     "name": "Monster Genetics",
     "description": "This is an application used in an online UNLV course. It teaches students how genetics work. This uses jquery/javascript.",
-    "picture": ["monster.jpg", "monster1.png", "monster2.png", "monster3.png"],
+    "picture": [
+    {
+      "name": "monster.jpg",
+		"desc": ""
+    },
+    {
+      "name": "monster1.png",
+      "desc": ""
+    },
+    {
+     "name": "monster2.png",
+      "desc": ""
+    },
+    {
+     "name": "monster3.png",
+      "desc": ""
+    }],
     "links": "frankenstein_lab/#",
     "desc": false
   },
   {
     "name": "Conventional Attributes",
     "description": "This was an exercise for an online course at UNLV. It uses chartJS and jquery/javascript",
-    "picture": ["gender.jpg", "gender1.png", "gender2.png", "gender3.png"],
+    "picture": [
+    {
+      "name": "gender.jpg",
+      "desc": ""
+    },
+    {
+      "name": "gender1.png",
+      "desc": ""
+    },
+    {
+      "name": "gender2.png",
+      "desc": ""
+    },
+    {
+      "name": "gender3.png",
+      "desc": ""
+    }],
     "links": "http://courses.online.unlv.edu/courses/WMST/WMST113/ConventionalAttributes/masc_fem/",
     "desc": false
   }],
