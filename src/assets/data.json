@@ -125,19 +125,19 @@
     "picture": [
     {
       "name": "planner.jpg",
-      "desc": ""
+      "desc": "Responsive Design and Dynamic Data Application."
     },
     {
       "name": "planner1.png",
-      "desc": ""
+      "desc": "Assignment Page with two tasks to choose from."
     },
     {
      "name": "planner2.png",
-      "desc": ""
+      "desc": "Assignment Page with 3 Tasks to choose from."
     },
     {
      "name": "planner3.png",
-      "desc": ""
+      "desc": "Review Page. Dynamically created pdf."
     }],
     "links": "http://courses.online.unlv.edu/courses/ENV/ENV498/Planner/",
     "desc": false
@@ -148,19 +148,19 @@
     "picture": [
     {
      "name": "bp.jpg",
-     "desc": ""
+     "desc": "Check Blood Pressure Screen."
     },
     {
      "name": "bp1.png",
-      "desc": ""
+      "desc": "Introduction and Overview."
     },
     {
       "name": "bp2.png",
-      "desc": ""
+      "desc": "Check Blood Pressure Simulation."
     },
     {
       "name": "bp3.png",
-      "desc": ""
+      "desc": "Check Pulse Simulation."
     }],
     "links": "/bloodpressure/",
     "desc": false
@@ -171,19 +171,19 @@
     "picture": [
     {
      "name": "binar.jpg",
-      "desc": ""
+      "desc": "Binar Home page on tablet."
     },
     {
      "name": "binar1.jpg",
-      "desc": ""
+      "desc": "Binar Application displayed in Tesla Dashboard."
     },
     {
       "name": "binar3.png",
-      "desc": ""
+      "desc": "Phone Page."
     },
     {
       "name": "binar4.png",
-      "desc": ""
+      "desc": "Vehicle Customization Settings."
     }],
     "links": "binar/#/",
     "desc": false
@@ -194,19 +194,19 @@
     "picture": [
     {
       "name": "monster.jpg",
-		"desc": ""
+		"desc": "Male Traits page, generated monster."
     },
     {
       "name": "monster1.png",
-      "desc": ""
+      "desc": "Closeup of Male traits page."
     },
     {
      "name": "monster2.png",
-      "desc": ""
+      "desc": "Customizable Female Monster page."
     },
     {
      "name": "monster3.png",
-      "desc": ""
+      "desc": "Customizable Female Monster page with various selections."
     }],
     "links": "frankenstein_lab/#",
     "desc": false
@@ -217,19 +217,19 @@
     "picture": [
     {
       "name": "gender.jpg",
-      "desc": ""
+      "desc": "Final Dashboard page with results."
     },
     {
       "name": "gender1.png",
-      "desc": ""
+      "desc": "Overview and instructions page."
     },
     {
       "name": "gender2.png",
-      "desc": ""
+      "desc": "Select traits page."
     },
     {
       "name": "gender3.png",
-      "desc": ""
+      "desc": "Final results closeup page."
     }],
     "links": "http://courses.online.unlv.edu/courses/WMST/WMST113/ConventionalAttributes/masc_fem/",
     "desc": false

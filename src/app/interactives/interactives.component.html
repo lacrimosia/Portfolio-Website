@@ -39,8 +39,10 @@
         </div>
         <!--<div class="ints col-md-6 col-lg-6 col-sm-12 col-xs-12" *ngFor="let z of interactives[Index]?.picture; let u = index"  [ngStyle]="{'background-image': 'url(' + getImage(interactives[Index]?.picture[u]) + ')', 'background-size': 'cover'}"></div>-->
         <div class="item" *ngFor="let z of interactives[Index]?.picture; let u = index">
-          <div class="well"> <b>{{u+1}})  {{interactives[Index]?.picture[u].desc}}</b> </div>
+          <div class="well warning"> <b>{{u+1}})  {{interactives[Index]?.picture[u].desc}}</b> </div>
           <img [src]="getImage(interactives[Index]?.picture[u].name)" alt="{{u}}" class="imgs">
+          <br/>
+          <br/>
         </div>
       </div>
       <div class="modal-footer">
