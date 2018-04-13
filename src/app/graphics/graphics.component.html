@@ -38,7 +38,7 @@
         </div>
         <div *ngIf="graphics[myIndex]?.video">
           <p>{{ graphics[myIndex]?.description }} Here are some screenshots from the project.</p>
-            <video width="720" height="480" controls>
+            <video width="720" height="480" controls #video>
               <source src="/assets/img/videos/{{graphics[myIndex]?.video}}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -49,7 +49,7 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" (click)="stopVideo()">Close</button>
       </div>
     </div>
   </div>
