@@ -283,6 +283,22 @@
     "active": false
   },
   {
+    "name": "Environmental Infographic",
+    "description": "Created for an environmental capstone course.",
+    "picture": ["info1.jpg"],
+    "thumbLink": "info1.jpg",
+    "fullLink": "info1.jpg",
+    "active": false
+  },
+  {
+    "name": "University Infographic",
+    "description": "Infographic that represents the University learning objectives for undergraduate students.",
+    "picture": ["uulo.jpg"],
+    "thumbLink": "uulo.jpg",
+    "fullLink": "uulo.jpg",
+    "active": false
+  },
+  {
     "name": "ExpressWest Stationary",
     "description": "Stationary System for Expresswest.",
     "picture": ["stationary.jpg"],
