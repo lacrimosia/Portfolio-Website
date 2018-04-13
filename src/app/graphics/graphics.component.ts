@@ -62,5 +62,6 @@ export class GraphicsComponent implements OnInit {
 
   stopVideo(event: any){
     this.video.nativeElement.pause();
+    this.video.nativeElement.currentTime = 0;
   }
 }
