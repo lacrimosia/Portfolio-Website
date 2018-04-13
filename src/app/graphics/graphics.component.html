@@ -15,7 +15,7 @@
           <div class="content">
             <h2> {{ g?.value?.name }} </h2>
             <p> {{ g?.value?.description +"..."}}</p>
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" (click)="myIndex=d"><i class="fa fa-search-plus"></i> View Project
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" (click)="myIndex=d;"><i class="fa fa-search-plus"></i> View Project
             </button>
           </div>
         </div>
@@ -39,7 +39,7 @@
         <div *ngIf="graphics[myIndex]?.video">
           <p>{{ graphics[myIndex]?.description }} Here are some screenshots from the project.</p>
             <video width="720" height="480" controls #video>
-              <source src="/assets/img/videos/{{graphics[myIndex]?.video}}" type="video/mp4">
+              <source type="video/mp4" #source [src]="getFullVideo(myIndex)">
                 Your browser does not support the video tag.
             </video>
         </div>

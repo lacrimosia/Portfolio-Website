@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { DataService} from '../data.service';
 import { Observable } from 'rxjs/Rx';
 import { KeysPipe } from '../keys.pipe';
@@ -20,6 +20,7 @@ export class GraphicsComponent implements OnInit {
    pageDesc:string;
    myIndex:number;
    @ViewChild('video') video:any;
+    @ViewChild('source') source:ElementRef;
 
   constructor(private _dataService: DataService) { }
 
@@ -63,5 +64,11 @@ export class GraphicsComponent implements OnInit {
   stopVideo(event: any){
     this.video.nativeElement.pause();
     this.video.nativeElement.currentTime = 0;
+  }
+
+  getFullVideo(index){
+    this.video.nativeElement.src = '/assets/img/videos/' + this.graphics[index].video;
+    return this.video.nativeElement.src;
+   // return '/assets/img/videos/' + this.graphics[index].video;
   }
 }
