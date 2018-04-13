@@ -25,8 +25,8 @@
   },
   "graphicsPage":
   {
-    "pageName": "Graphic Design",
-    "description": "Here is a showcase of my Graphic Design works.",
+    "pageName": "Design",
+    "description": "Here is a showcase of my digital design work.",
     "background": "assets/img/bg.jpg"
   },
   "latest":
@@ -43,22 +43,22 @@
     "desc": "HTML5, CSS3, SASS, JavaScript, jquery, Angular, React, REST, AJAX."
   },
   {
-    "name": "UI/UX Design",
+    "name": "UX Design Process",
     "symbol": "fa fa-mobile",
     "image": "uidesign.jpg",
     "desc": "Wireframing, Ideation, Process, Interaction, Research, Components."
   },
   {
-    "name": "Graphic Design",
+    "name": "Visual Design",
     "symbol": "fa fa-paint-brush",
     "image": "gd.jpg",
     "desc": "Typography, Layout, Design, Process, Communication, Photoshop, Illustrator, InDesign, 3D Modeling, Maya, 3ds Max."
   },
   {
-    "name": "Application Development",
+    "name": "App Development",
     "symbol": "fa fa-code",
     "image": "app.jpg",
-    "desc": "C++, MVC, MV*, Ruby, Laravel, Git(Version Control), OOP"
+    "desc": "JavaScript, jQuery, Angular, NodeJS, C++, MVC, MV*, PHP, Git, OOP"
   }],
   "interactives": [
   {
@@ -272,6 +272,13 @@
     "picture": ["weeknd.jpg"],
     "thumbLink": "weeknd.jpg",
     "fullLink": "weeknd.jpg",
+    "active": false
+  },
+  {
+    "name": "Intersectionality video",
+    "description": "A video I created explaining Intersectionality to Women Studies Students at UNLV.",
+    "fullLink": "inter.jpg",
+    "video": "intersectionality.mp4",
     "active": false
   },
   {
