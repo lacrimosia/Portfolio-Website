@@ -39,4 +39,8 @@ export class HomeComponent implements OnInit {
       () => console.log("Interactive data loaded."));
   }
 
+  getImage2(image){
+    return 'assets/img/thumbs/web/' + image;
+  }
+
 }

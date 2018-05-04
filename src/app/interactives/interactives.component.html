@@ -14,9 +14,9 @@
         <div class="desc animated fadeIn" *ngIf="n.desc==true">
           <div class="content">
             <h2> {{ n.value.name }} </h2>
-            <p> {{ n.value.description }}</p>
+             <p> {{ n.value.description }}</p>
             <p>
-              <button (click)="Index=i" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">View Project <i class="fa fa-arrow-right"></i></button>
+              <button (click)="Index=i" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">Learn more <i class="fa fa-arrow-right"></i></button>
             </p>
           </div>
         </div>
@@ -35,8 +35,9 @@
       <div class="modal-body">
         <div *ngIf="interactives[Index]?.name">
           <p>{{ interactives[Index]?.description }} Here are some screenshots from the project.</p>
-          <p><a href="{{interactives[Index]?.links}}" role="button" class="btn btn-primary btn-lg" target="_blank">Launch Project <i class="fa fa-arrow-right"></i></a></p>
+          <p><a href="{{interactives[Index]?.links}}" role="button" class="btn btn-primary btn-lg" target="_blank">Launch Project <i class="fa fa-arrow-right"></i></a> <a *ngIf="interactives[Index]?.pdf" href="getFullImage(interactives[Index]?.pdf)" role="button" class="btn btn-primary btn-lg" target="_blank">View Pdf <i class="fa fa-arrow-right"></i></a></p>
         </div>
+
         <!--<div class="ints col-md-6 col-lg-6 col-sm-12 col-xs-12" *ngFor="let z of interactives[Index]?.picture; let u = index"  [ngStyle]="{'background-image': 'url(' + getImage(interactives[Index]?.picture[u]) + ')', 'background-size': 'cover'}"></div>-->
         <div class="item" *ngFor="let z of interactives[Index]?.picture; let u = index">
           <div class="well warning"> <b>{{u+1}})  {{interactives[Index]?.picture[u].desc}}</b> </div>

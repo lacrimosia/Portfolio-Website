@@ -1,5 +1,5 @@
 // colors
-$gold: #C4882B;
+$gold: #D0992A;
 $brown: #46310f;
 $white: #ffffff;
 $gray: #f1f1f1;
@@ -38,7 +38,12 @@ $gray: #f1f1f1;
 
 .goldIcon{
 	color: $gold;
-//	font-size: 6em !important;
+//font-size: 6em !important;
+}
+
+.skillsIcon{
+color: $brown;
+font-size: 6em !important;
 }
 
 .item{
@@ -48,4 +53,28 @@ $gray: #f1f1f1;
 
 .goldarea{
 	background: $white;
+}
+
+.goldArea{
+	background: $gold;
+	color: $white;
+}
+
+.brownText{
+	color: $brown !important;
+}
+
+.goldAreaBrown{
+	background: $gold;
+	color: $brown;
+}
+
+.brownArea{
+	background: $brown;
+	color: $gold;
+}
+
+.grayArea{
+	background: $gray;
+	color: $brown;
 }

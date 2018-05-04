@@ -1,5 +1,5 @@
 // colors
-$gold: #C4882B;
+$gold: #D0992A;
 $brown: #46310f;
 $white: #ffffff;
 $gray: #f1f1f1;
@@ -18,9 +18,10 @@ $gray: #f1f1f1;
 }
 
 h1{
-	color: $brown !important;
+	color: $gold !important;
 	font-family: Fancy, sans-serif !important;
 	font-size: 600% !important;
+	letter-spacing: 3px;
 }
 
 .navbar{
@@ -83,6 +84,10 @@ h1{
 	text-align: center;
 }
 
+.modal.fade.in{
+	//background: rgba(0,0,0, 0.7);
+}
+
 .modal-sm{
 	width: 75%;
 }
@@ -92,4 +97,41 @@ h1{
 	max-width: 95%;
 	text-align: center;
 	margin-bottom: 15px;
+}
+
+p, a, span{
+	font-size: 1.3em !important;
+}
+
+.extraPadding{
+	padding: 50px;
+}
+
+.introductionArea{
+	padding: 100px;
+	//background: $gray;
+	background:
+	linear-gradient(
+		rgba(208,153,42, 0.75), 
+		rgba(208,153,42, 0.75)
+	),
+	url('assets/img/bg2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 65%;
+	color: $brown;
+}
+
+
+.introductionArea h1{
+	font-size: 11em !important;
+	font-weight: 200;
+	color: $brown !important;
+}
+
+
+@media only screen and (max-width: 1024px) {
+	.introductionArea h1{
+		font-size: 12em !important;
+	}
 }
