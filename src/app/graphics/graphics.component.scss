@@ -1,11 +1,31 @@
 // colors
-$gold: #C4882B;
+$gold: #D0992A;
 $brown: #46310f;
 $white: #ffffff;
 $gray: #f1f1f1;
 
 .jumbotron{
 	background: $gray;
+}
+
+.brownText{
+	color: $brown !important;
+}
+
+
+.topHeader{
+	padding: 100px;
+	//background: $gray;
+	background:
+	linear-gradient(
+		rgba(208,153,42, 0.75), 
+		rgba(208,153,42, 0.75)
+	),
+	url('../../assets/img/bg2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 65%;
+	color: $brown;
 }
 
 .desc{
@@ -19,11 +39,17 @@ $gray: #f1f1f1;
 }
 
 .images{
+	cursor: pointer;
+}
+
+.images img{
+	object-fit: cover;
 	width: 100%;
 	height: 500px;
-	background-position: center center;
-	cursor: pointer;
-	margin-bottom: 30px;
+}
+
+.grapdesign{
+	margin-bottom: 40px;
 }
 
 .content{
