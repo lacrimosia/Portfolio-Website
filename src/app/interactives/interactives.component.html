@@ -10,8 +10,10 @@
       <div class="images">
         <img src="{{getImage(n?.value?.picture[0].name)}}" class="img-responsive" />
       </div>
-      <h3> {{n?.value?.name}} </h3>
-      <button (click)="Index=i" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">Learn more <i class="fa fa-arrow-right"></i></button>
+      <div class="text-center">
+        <h3> {{n?.value?.name}} </h3>
+        <button (click)="Index=i" target="_blank" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">Learn more <i class="fa fa-arrow-right"></i></button>
+      </div>
     </div>
   </div>
 </div>
@@ -31,8 +33,8 @@
         </div>
         <!--<div class="ints col-md-6 col-lg-6 col-sm-12 col-xs-12" *ngFor="let z of interactives[Index]?.picture; let u = index"  [ngStyle]="{'background-image': 'url(' + getImage(interactives[Index]?.picture[u]) + ')', 'background-size': 'cover'}"></div>-->
         <br/>
-          <br/>
-          <h1>Screenshots</h1>
+        <br/>
+        <h1>Screenshots</h1>
         <div class="item" *ngFor="let z of interactives[Index]?.picture; let u = index">
           <div class="well warning"> <b>{{u+1}})  {{interactives[Index]?.picture[u].desc}}</b> </div>
           <img [src]="getImage(interactives[Index]?.picture[u].name)" alt="{{u}}" class="imgs">

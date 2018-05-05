@@ -13,9 +13,11 @@
       <div class="images">
         <img src="{{getFullImage(g?.value?.fullLink)}}" class="img-responsive" />
       </div>
-      <h3> {{g?.value?.name}} </h3>
-      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" (click)="myIndex=d;"><i class="fa fa-search-plus"></i> View Project
-      </button>
+      <div class="text-center">
+        <h3> {{g?.value?.name}} </h3>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" (click)="myIndex=d;"><i class="fa fa-arrow-right"></i> View Project
+        </button>
+      </div>
     </div>
   </div>
   <!-- Modal -->
