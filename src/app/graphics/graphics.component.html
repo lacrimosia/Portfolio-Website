@@ -28,6 +28,7 @@
         </div>
         <div class="modal-body">
           <div *ngIf="graphics[myIndex]?.live">
+            <h1>Project Description</h1>
             <p>{{ graphics[myIndex]?.description }} Here are some screenshots from the project.</p>
             <a href="{{getFullImage(graphics[myIndex]?.live)}}" role="button" class="btn btn-primary btn-lg">Launch Project <i class="fa fa-arrow-right"></i></a>
           </div>
@@ -38,6 +39,9 @@
             </video>
           </div>
           <!--<div class="col-sm-12 col-xs-12" *ngFor="let p of graphics[myIndex]?.picture; let x = index" [ngClass]="{'col-lg-12 col-md-12': graphics[myIndex]?.picture.length>1, 'col-lg-6 col-md-6': graphics[myIndex]?.picture.length>1}"><img [src]="getFullImage(graphics[myIndex]?.picture[x])" class="img-responsive center-block" style="max-width: auto; max-height: 100%;"/></div>-->
+          <br/>
+          <br/>
+          <h1>Screenshots</h1>
           <div class="item" *ngFor="let p of graphics[myIndex]?.picture; let x = index">
             <img [src]="getFullImage(graphics[myIndex]?.picture[x])" alt="{{u}}" class="imgsg">
           </div>

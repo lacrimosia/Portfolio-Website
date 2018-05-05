@@ -27,21 +27,19 @@ $gray: #f1f1f1;
 	color: $brown;
 }
 
-.desc{
-	position: absolute;
-	background: rgba(241,241,241,0.8);
-	z-index: 500;
-	bottom: 0;
-	padding: 10px;
-	width: 95%;
-	height: 100%;
-}
 
 .images{
-	width: 100%;
-	height: 100%;
-	background-position: center center;
 	cursor: pointer;
+}
+
+.images img{
+	object-fit: cover;
+	width: 100%;
+	height: 300px;
+}
+
+.grapdesign{
+	margin-bottom: 40px;
 }
 
 .content{
