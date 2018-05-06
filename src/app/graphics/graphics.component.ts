@@ -20,7 +20,7 @@ export class GraphicsComponent implements OnInit {
    pageDesc:string;
    myIndex:number;
    @ViewChild('video') video:any;
-    @ViewChild('source') source:ElementRef;
+  //  @ViewChild('source') source:ElementRef;
 
   constructor(private _dataService: DataService) { }
 
@@ -66,8 +66,9 @@ export class GraphicsComponent implements OnInit {
     this.video.nativeElement.currentTime = 0;
   }
 
-  getFullVideo(index){
-    this.video.nativeElement.src = '/assets/img/videos/' + this.graphics[index].video;
+  getFullVideo(index, event:any){
+    this.video.nativeElement.src = '../assets/img/videos/' + this.graphics[index].video;
+    console.log(this.video.nativeElement.src);
     return this.video.nativeElement.src;
    // return '/assets/img/videos/' + this.graphics[index].video;
   }

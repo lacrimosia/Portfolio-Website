@@ -28,7 +28,7 @@
       <div class="modal-body">
         <div *ngIf="interactives[Index]?.name">
           <h1>Project Description</h1>
-          <p>{{ interactives[Index]?.description }} Here are some screenshots from the project.</p>
+          <p class="descr center-block">{{ interactives[Index]?.description }} Here are some screenshots from the project.</p>
           <p><a href="{{interactives[Index]?.links}}" role="button" class="btn btn-primary btn-lg" target="_blank">Launch Project <i class="fa fa-arrow-right"></i></a> <a *ngIf="interactives[Index]?.pdf" href="{{getFullImage(interactives[Index]?.pdf)}}" role="button" class="btn btn-primary btn-lg" target="_blank">View Pdf <i class="fa fa-arrow-right"></i></a></p>
         </div>
         <!--<div class="ints col-md-6 col-lg-6 col-sm-12 col-xs-12" *ngFor="let z of interactives[Index]?.picture; let u = index"  [ngStyle]="{'background-image': 'url(' + getImage(interactives[Index]?.picture[u]) + ')', 'background-size': 'cover'}"></div>-->
