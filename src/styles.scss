@@ -17,6 +17,11 @@ $gray: #f1f1f1;
   border-radius: 0px !important;
 }
 
+.btn-primary:hover{
+	background: $brown !important;
+	border-color: $brown !important;
+}
+
 h1 {
   color: $gold !important;
   font-family: Fancy, sans-serif !important;

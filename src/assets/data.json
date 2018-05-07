@@ -63,11 +63,15 @@
   "interactives": [
   {
     "name": "Healthcare Learning App",
-    "description": "This is a concept for an eLearning course to learn medical skills. This uses Angular 5 library.",
+    "description": "The Healthcare Learning company is created to help people learn life-saving skills in a simple and quick amount of time. This project was inspired by my interest in Graphic Design and eLearning. I created a concept and prototype for my undergraduate thesis around the idea of pairing the two disciplines together to create an easy and intuitive user interface. I have included research and data that supports my reasoning behind the design and branding in the pdf document. I also tested this prototype for many medical students at UNLV, and they were interested in utilizing this application for their coursework in school.",
     "picture": [
     {
       "name": "healthcare.png",
       "desc": "Responsive Design"
+    },
+    {
+      "name": "health.jpg",
+      "desc": "Research about the design of Healthcare Learning. View the pdf for more info."
     },
     {
       "name": "healthcare1.png",
@@ -91,7 +95,7 @@
   },
   {
     "name": "World Map (Past and Present)",
-    "description": "This is an application used in an online UNLV course and UNLV Libraries. It showcases various books and media from all over the world. It also teaches students about the history of the past and present in english literature. This project uses angularJS.",
+    "description": "The University of Nevada, Las Vegas Library and Department of English wanted an interactive map of the world that showcased literature from cultures of the past and present. I created the world map user interface and developed this project with AngularJS. Thousands of English literature students at UNLV utilize my application as a resource for their upper-level English courses.",
     "picture": [
     {
       "name": "map.jpg",
@@ -122,7 +126,7 @@
   },
   {
     "name": "Activity Planner",
-    "description": "This is a custom planner used in an online UNLV course. This uses Angular 2 library.",
+    "description": "The UNLV Department of Urban and Environmental Studies wanted to create a planner that helped students with their semester plans. The planner lets students choose their assignments based on the topic and receive a PDF copy of their semester plan at the touch of a button. I created this application using Angular and developed the design, assets, and user interface.",
     "picture": [
     {
       "name": "planner.jpg",
@@ -144,8 +148,8 @@
     "desc": false
   },
   {
-    "name": "Blood Pressure",
-    "description": "This is a blood pressure application used in an online UNLV course. This uses jquery/javascript.",
+    "name": "Blood Pressure and Radial Pulse",
+    "description": "The UNLV Department of Sciences wanted to create a completely online Biology lab. I created a Blood Pressure simulation application. I researched how to take blood pressure and created the UI and functionality for the project. This project was created using JavaScript and incorporates simple interactive methodologies. This project has helped over thousands of online students to understand the mechanisms of taking blood pressure and preparing them for their studies in the Health Science profession.",
     "picture": [
     {
      "name": "bp.jpg",
@@ -167,8 +171,8 @@
     "desc": false
   },
   {
-    "name": "Binar Multimedia App",
-    "description": "This is an ongoing project that I created for my web design class for a car system. It was made with angularJS.",
+    "name": "Binar Tesla Prototype",
+    "description": "BINAR Technologies is a technical company that creates multimedia systems for cars. I created a working prototype of a multimedia system for a Tesla based on a demographic of tech-savvy individuals. I researched and interviewed users on their needs and wants of a multi-media system. I followed UX principles of design by incorporating these techniques for an intuitive experience. This system is also built for safety and a streamlined experience. I developed the branding, design, and development of the prototype. It was developed in AngularJS. Please take a look at the research of the project.",
     "picture": [
     {
      "name": "binar.jpg",
@@ -192,7 +196,7 @@
   },
   {
     "name": "Monster Genetics",
-    "description": "This is an application used in an online UNLV course. It teaches students how genetics work. This uses jquery/javascript.",
+    "description": "For all the Biology lovers! The UNLV College of Sciences wanted to teach students about Genetics through a fun experience. I created an application that shows how genotypes and phenotypes work in the field of Genetics. The UI and design was created by me. I also developed this application with HTML5 and JavaScript. At the end, students receive a PDF print out to keep for their own resource.",
     "picture": [
     {
       "name": "monster.jpg",
@@ -215,7 +219,7 @@
   },
   {
     "name": "Conventional Attributes",
-    "description": "This was an exercise for an online course at UNLV. It uses chartJS and jquery/javascript",
+    "description": "The UNLV College of Gender Studies and Sexuality wanted to create an application that explore gender and attributes associated with a person’s gender. I created an application that allows students to choose from randomly selected traits that visually shows them information about gender stereotypes. The graph at the end shows students masculine and feminine traits. It also breaks down the information individually to allow for course discussion.",
     "picture": [
     {
       "name": "gender.jpg",
@@ -251,17 +255,8 @@
   }],
   "graphics": [
   {
-    "name": "Binar Technologies Research Guide",
-    "description": "This is a book about my research on an application project for Binar Technologies. It describes my research and on target demographics on the project.",
-    "picture": ["Binar-Print-Book22.jpg", "Binar-Print-Book1.jpg", "Binar-Print-Book2.jpg", "Binar-Print-Book3.jpg"],
-    "thumbLink": "Binar-Print-Book22.jpg",
-    "fullLink": "Binar-Print-Book22.jpg",
-    "live": "Binar-Print-Book.pdf",
-    "active": false
-  },
-  {
     "name": "Port of Subs Brand Communication",
-    "description": "Brand Communication Guideline for Port of Subs that describes how to use and promote the brand within a design system.",
+    "description": "Port of Subs is a sandwich company that created healthy food. I developed an entirely new branding system to support the Port of Subs image. View the branding communication guidelines for more information on my research and development of the design and branding.",
     "picture": ["brand4.jpg", "brand1.jpg", "brand2.jpg", "brand3.jpg", "brand5.jpg", "brand6.jpg"],
     "thumbLink": "brand.jpg",
     "fullLink": "brand.jpg",
