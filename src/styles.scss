@@ -6,142 +6,148 @@ $gray: #f1f1f1;
 
 // cursive font
 @font-face {
-    font-family: Fancy;
-    src: url(assets/fonts/RougeScript-Regular_0.ttf);
+  font-family: Fancy;
+  src: url(assets/fonts/RougeScript-Regular_0.ttf);
 }
 
-.btn-primary{
-	border-color: $gold !important;
-	background: $gold !important;
-	color: $white !important;
-	border-radius: 0px !important;
+.btn-primary {
+  border-color: $gold !important;
+  background: $gold !important;
+  color: $white !important;
+  border-radius: 0px !important;
 }
 
-h1{
-	color: $gold !important;
-	font-family: Fancy, sans-serif !important;
-	font-size: 600% !important;
-	letter-spacing: 3px;
+h1 {
+  color: $gold !important;
+  font-family: Fancy, sans-serif !important;
+  font-size: 600% !important;
+  letter-spacing: 3px;
 }
 
-.navbar{
-	min-height: 95px !important;
-	height: auto !important;
-	margin-bottom: 0px !important;
-	background: $white !important;
-	border-color: $white;
+.navbar {
+  min-height: 95px !important;
+  height: auto !important;
+  margin-bottom: 0px !important;
+  background: $white !important;
+  border-color: $white;
 }
 
-.navbar-default .navbar-nav > li > a{
-	color: $gold !important;
-	font-size: 14px;
+.navbar-default .navbar-nav>li>a {
+  color: $gold !important;
+  font-size: 14px;
 }
 
-.navbar-default .navbar-nav > li > a:hover{
-	text-decoration: underline !important;
-	color: $brown;
+.navbar-default .navbar-nav>li>a:hover {
+  text-decoration: underline !important;
+  color: $brown;
 }
 
-.email{
-	color: $brown !important;
+.email {
+  color: $brown !important;
 }
 
-.navbar-nav > li > a{
-	padding-top: 40px !important;
+.navbar-nav>li>a {
+  padding-top: 40px !important;
 }
 
-.textArea{
-	background: $gray;
+.textArea {
+  background: $gray;
 }
 
-.circles{
-	background: $gold;
-	color: $white;
+.circles {
+  background: $gold;
+  color: $white;
 }
 
-.contact{
-	background: url('assets/img/pic1.jpg') no-repeat;
-	background-size: cover;
+.contact {
+  background: url('assets/img/pic1.jpg') no-repeat;
+  background-size: cover;
 }
 
-.footer{
-	padding-top: 30px !important;
-	padding-bottom: 30px !important;
+.footer {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
 }
 
-.carousel-indicators .active{
+.carousel-indicators .active {
   background: $gold;
   border: 1px solid $gold;
 }
 
-.whiteBox{
-	padding: 15px;
-	background: rgba(255,255,255,0.7);
-	width: 50%;
+.whiteBox {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.7);
+  width: 50%;
 }
 
-.modal{
-	text-align: center;
+.modal {
+  text-align: center;
 }
 
-.modal.fade.in{
-	//background: rgba(0,0,0, 0.7);
+.modal.fade.in {
+  //background: rgba(0,0,0, 0.7);
 }
 
-.modal-sm{
-	width: 75%;
+.modal-sm {
+  width: 75%;
 }
 
-.imgs, .imgsg{
-	min-width: 80%;
-	max-width: 95%;
-	text-align: center;
-	margin-bottom: 15px;
+.imgs,
+.imgsg {
+  min-width: 80%;
+  max-width: 95%;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-p, a, span{
-	font-size: 1.3em !important;
+p,
+a,
+span {
+  font-size: 1.3em !important;
 }
 
-.extraPadding{
-	padding: 50px;
+.extraPadding {
+  padding: 50px;
 }
 
-.introductionArea{
-	padding: 100px;
-	//background: $gray;
-	background:
-	linear-gradient(
-		rgba(208,153,42, 0.75), 
-		rgba(208,153,42, 0.75)
-	),
-	url('assets/img/bg2.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center 65%;
-	color: $brown;
+.introductionArea {
+  padding: 100px; //background: $gray;
+  background: 
+  linear-gradient( 
+  	rgba(255, 255, 255, 0.75),
+  	rgba(208, 153, 42, 0.75)
+  ),
+  url('assets/img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 65%;
+  color: $brown;
 }
 
-.introductionArea h1{
-	font-size: 11em !important;
-	font-weight: 200;
-	color: $brown !important;
+/*linear-gradient(
+  //	rgba(208,153,42, 0.75), 
+  //	rgba(208,153,42, 0.75)
+  //)*/
+
+.introductionArea h1 {
+  font-size: 11em !important;
+  font-weight: 200;
+  color: $brown !important;
 }
 
 
 @media only screen and (max-width: 1024px) {
-	.introductionArea h1{
-		font-size: 12em !important;
-	}
+  .introductionArea h1 {
+    font-size: 12em !important;
+  }
 }
 
-.fancy{
-	font-family: Fancy, sans-serif;
+.fancy {
+  font-family: Fancy, sans-serif;
 }
 
-.descr{
-	text-align: left !important;
-	width: 80%;
-	padding: 25px;
-
+.descr {
+  text-align: left !important;
+  width: 80%;
+  padding: 25px;
 }

@@ -2,7 +2,7 @@
   <div class="container text-center">
     <div class="center-block">
       <h1 class="brownText">{{ pageName }}</h1>
-      <p> {{ pageDesc }} </p>
+      <h2> {{ pageDesc }} </h2>
       <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>-->
     </div>
   </div>
@@ -29,7 +29,11 @@
           <h2 class="modal-title" id="myModalLabel">{{graphics[myIndex]?.name}}</h2>
         </div>
         <div class="modal-body">
-          <div *ngIf="graphics[myIndex]?.live">
+          <div *ngIf="graphics[myIndex]?.live" [ngStyle]="{'background-image': 'linear-gradient(
+        rgba(255, 255, 255, 0.9),
+    rgba(208, 153, 42, 0.75)
+    
+  ),url(' + getFullImage(graphics[myIndex]?.fullLink) + ')', 'background-size': 'cover', 'padding': '50px'}">
             <h1>Project Description</h1>
             <p class="descr center-block">{{ graphics[myIndex]?.description }} Here are some screenshots from the project.</p>
             <a href="{{getFullImage(graphics[myIndex]?.live)}}" role="button" class="btn btn-primary btn-lg">Launch Project <i class="fa fa-arrow-right"></i></a>

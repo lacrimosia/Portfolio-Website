@@ -17,10 +17,10 @@ $gray: #f1f1f1;
 	padding: 100px;
 	//background: $gray;
 	background:
-	linear-gradient(
-		rgba(208,153,42, 0.75), 
-		rgba(208,153,42, 0.75)
-	),
+	linear-gradient( 
+  	rgba(255, 255, 255, 0.75),
+  	rgba(208, 153, 42, 0.75)
+  ),
 	url('../../assets/img/bg2.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
