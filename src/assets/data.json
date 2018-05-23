@@ -62,6 +62,41 @@
   }],
   "interactives": [
   {
+    "name": "Operation Interactive (WIP)",
+    "description": "The UNLV College of Health Sciences wanted to create an interactive way to engage students in learning about Anatomy and Physiology. I created a responsive interactive that assists students in learning the parts of the Human Body. This application is still in progress and here is a simple demo.",
+    "picture": [
+    {
+      "name": "operation-pic.png",
+      "desc": "Application Design High-fidelity. Work in Progress."
+    },
+    {
+      "name": "op1.png",
+      "desc": "Home Screen."
+    },
+    {
+      "name": "op2.png",
+      "desc": "Main layout."
+    },
+    {
+      "name": "op3.png",
+      "desc": "Selecting a card layout."
+    },
+    {
+      "name": "op4.png",
+      "desc": "Help Menu slidshow. This will be implemented later."
+    },
+    {
+      "name": "op5.png",
+      "desc": "Showing draggable elements in layout."
+    },
+    {
+      "name": "op6.png",
+      "desc": "This page shows the interface when student gets answer correct."
+    }],
+    "links": "http://spdevstudios.com/operation/",
+    "desc": false
+  },
+  {
     "name": "Healthcare Learning App",
     "description": "The Healthcare Learning company is created to help people learn life-saving skills in a simple and quick amount of time. This project was inspired by my interest in Graphic Design and eLearning. I created a concept and prototype for my undergraduate thesis around the idea of pairing the two disciplines together to create an easy and intuitive user interface. I have included research and data that supports my reasoning behind the design and branding in the pdf document. I also tested this prototype for many medical students at UNLV, and they were interested in utilizing this application for their coursework in school.",
     "picture": [
@@ -137,11 +172,11 @@
       "desc": "Assignment Page with two tasks to choose from."
     },
     {
-     "name": "planner2.png",
+      "name": "planner2.png",
       "desc": "Assignment Page with 3 Tasks to choose from."
     },
     {
-     "name": "planner3.png",
+      "name": "planner3.png",
       "desc": "Review Page. Dynamically created pdf."
     }],
     "links": "http://courses.online.unlv.edu/courses/ENV/ENV498/Planner/",
@@ -152,11 +187,11 @@
     "description": "The UNLV Department of Sciences wanted to create a completely online Biology lab. I created a Blood Pressure simulation application. I researched how to take blood pressure and created the UI and functionality for the project. This project was created using JavaScript and incorporates simple interactive methodologies. This project has helped over thousands of online students to understand the mechanisms of taking blood pressure and preparing them for their studies in the Health Science profession.",
     "picture": [
     {
-     "name": "bp.jpg",
-     "desc": "Check Blood Pressure Screen."
+      "name": "bp.jpg",
+      "desc": "Check Blood Pressure Screen."
     },
     {
-     "name": "bp1.png",
+      "name": "bp1.png",
       "desc": "Introduction and Overview."
     },
     {
@@ -175,11 +210,11 @@
     "description": "BINAR Technologies is a technical company that creates multimedia systems for cars. I created a working prototype of a multimedia system for a Tesla based on a demographic of tech-savvy individuals. I researched and interviewed users on their needs and wants of a multi-media system. I followed UX principles of design by incorporating these techniques for an intuitive experience. This system is also built for safety and a streamlined experience. I developed the branding, design, and development of the prototype. It was developed in AngularJS. Please take a look at the research of the project.",
     "picture": [
     {
-     "name": "binar.jpg",
+      "name": "binar.jpg",
       "desc": "Binar Home page on tablet."
     },
     {
-     "name": "binar1.jpg",
+      "name": "binar1.jpg",
       "desc": "Binar Application displayed in Tesla Dashboard."
     },
     {
@@ -200,18 +235,18 @@
     "picture": [
     {
       "name": "monster.jpg",
-		"desc": "Male Traits page, generated monster."
+      "desc": "Male Traits page, generated monster."
     },
     {
       "name": "monster1.png",
       "desc": "Closeup of Male traits page."
     },
     {
-     "name": "monster2.png",
+      "name": "monster2.png",
       "desc": "Customizable Female Monster page."
     },
     {
-     "name": "monster3.png",
+      "name": "monster3.png",
       "desc": "Customizable Female Monster page with various selections."
     }],
     "links": "frankenstein_lab/#",
