@@ -62,38 +62,26 @@
   }],
   "interactives": [
   {
-    "name": "Operation Interactive (WIP)",
-    "description": "The UNLV College of Health Sciences wanted to create an interactive way to engage students in learning about Anatomy and Physiology. I created a responsive interactive that assists students in learning the parts of the Human Body. This application is still in progress and here is a simple demo.",
+    "name": "SVG Interactive Map Timeline",
+    "description": "The UNLV Anthropology department wanted to create an interactive way to engage students in learning about the evolution of Glaciers in various periods. I created a responsive interactive that assists students in learning about glacier regions. Clicking on the marker reveals more information about a region on the map.",
     "picture": [
     {
-      "name": "operation-pic.png",
-      "desc": "Application Design High-fidelity. Work in Progress."
+      "name": "mt0.jpg",
+      "desc": "Various Screen Designs"
     },
     {
-      "name": "op1.png",
-      "desc": "Home Screen."
+      "name": "mt1.png",
+      "desc": "Default Screen"
     },
     {
-      "name": "op2.png",
-      "desc": "Main layout."
+      "name": "mt2.png",
+      "desc": "Entire world map with markers"
     },
     {
-      "name": "op3.png",
-      "desc": "Selecting a card layout."
-    },
-    {
-      "name": "op4.png",
-      "desc": "Help Menu slidshow. This will be implemented later."
-    },
-    {
-      "name": "op5.png",
-      "desc": "Showing draggable elements in layout."
-    },
-    {
-      "name": "op6.png",
-      "desc": "This page shows the interface when student gets answer correct."
+      "name": "mt3.png",
+      "desc": "Zoomed in to map after marker click with information"
     }],
-    "links": "http://spdevstudios.com/operation/index.html?source=skeleton",
+    "links": "http://spdevstudios.com/maptimeline/",
     "desc": false
   },
   {
